@@ -17,3 +17,43 @@ body {
   line-height: 1.4;
   color: var(--color-main);
 }
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+header {
+  transition: all 0.3s ease;
+  nav {
+    &.active {
+      display: block;
+    }
+  }
+}
+
+header.fixed {
+  @apply bg-blueMain;
+}
+
+.hero {
+  .hero-content {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.45);
+      z-index: 1;
+    }
+  }
+}
