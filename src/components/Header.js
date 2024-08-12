@@ -32,17 +32,17 @@ const Header = () => {
                 <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_blue.png" width="200" height="200" alt="Logo Kerlin" />
                 <nav className={`top-[80px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed hidden lg:block lg:relative px-4 lg:px-0 ${active ? "active" : ""}`}>
                     <ul className='flex flex-col lg:flex-row py-5 lg:py-0 items-center lg:items-start'>
-                        <li className='mb-3 lg:mb-0 lg:mr-8'>
-                            <Link className="text-blueMain font-bold py-2" href="#home">Home</Link>
+                        <li className='mb-3 lg:mb-0 lg:mr-10'>
+                            <Link className="text-blueMain font-bold py-2 text-lg" href="#home">Home</Link>
                         </li>
-                        <li className='mb-3 lg:mb-0 lg:mr-8'>
-                            <Link className="text-blueMain font-bold py-2" href="/campos">Campos</Link>
+                        <li className='mb-3 lg:mb-0 lg:mr-10'>
+                            <Link className="font-bold py-2 text-lg" href="/campos">Campos</Link>
                         </li>
-                        <li className='mb-3 lg:mb-0 lg:mr-8'>
-                            <Link className="text-blueMain font-bold py-2" href="/campos">Nuestra Propuesta</Link>
+                        <li className='mb-3 lg:mb-0 lg:mr-10'>
+                            <Link className="font-bold py-2 text-lg" href="/campos">Nuestra Propuesta</Link>
                         </li>
                         <li>
-                            <Link href="#" className="text-blueMain font-bold py-2">Contacto</Link>
+                            <Link href="#" className="font-bold py-2 text-lg">Contacto</Link>
                         </li>
                     </ul>
                 </nav>

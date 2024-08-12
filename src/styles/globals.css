@@ -8,12 +8,16 @@
   :root {
     --color-white: #fff;
     --color-main: #333;
+    --color-gray-light-01: #999;
     --color-blue-main: #20396f;
+    --color-blue-dark: #132959;
+    --color-green-main: #01A15E;
   }
 }
 
 body {
   @apply font-main;
+  font-size: 18px;
   line-height: 1.4;
   color: var(--color-main);
 }
@@ -24,21 +28,102 @@ h3 {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.2;
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 20%;
+    position: absolute;
+    bottom: -1rem;
+    height: 4px;
+    background-color: var(--color-green-main);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.noBorder {
+    &:after {
+      display: none;
+    }
+  }
+
+  &.leftBorder {
+    &:after {
+      left: 0;
+      transform: none;
+    }
+  }
 }
 
+h3 {
+  font-size: 1.8rem;
+
+  @media (width >= 992px) {
+    font-size: 2.2rem;
+  }
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  min-width: 200px;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  gap: 0.65rem;
+
+  .icon {
+    width: 1rem;
+    height: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  &.btn-primary {
+    background-color: var(--color-blue-main);
+    color: var(--color-white);
+
+    &:hover {
+      background-color: var(--color-blue-dark);
+    }
+  }
+}
+
+section {
+  padding: 3rem 0;
+
+  @media (width >= 992px) {
+    padding: 4rem 0;
+  }
+}
+
+/*HEADER
+************************************/
 header {
   transition: all 0.3s ease;
+
   nav {
     &.active {
       display: block;
+      z-index: 500;
+      background-color: var(--color-white);
     }
   }
 }
 
 header.fixed {
-  @apply bg-blueMain;
+  background-color: var(--color-white);
+  box-shadow: 0 0 8px 0 var(--color-gray-light-01);
+  animation: transitionHeader 1s;
 }
 
+/*HERO
+*************************************************/
 .hero {
   .hero-content {
     position: relative;
@@ -52,8 +137,34 @@ header.fixed {
       height: 100%;
       left: 0;
       top: 0;
-      background-color: rgba(0, 0, 0, 0.45);
+      background-color: rgba(0, 0, 0, 0.5);
       z-index: 1;
     }
+  }
+}
+
+/*NUESTRA PROPUESTA
+*******************************/
+.nuestra-propuesta {
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+@keyframes transitionHeader {
+  0% {
+      top: -5rem;
+  }
+
+  100% {
+      top: 0;
   }
 }
