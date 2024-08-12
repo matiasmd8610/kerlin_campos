@@ -23,6 +23,7 @@ module.exports = {
       },
       colors: {
         blueMain: 'var(--color-blue-main)',
+        greenMain: 'var(--color-green-main)',
       }
     },
   },
