@@ -41,7 +41,7 @@ export default function Home() {
         {/* QUIENES SOMOS: End */}
 
         {/* NUESTRA PROPUESTA: Begin */}
-        <section className="nuestra-propuesta bg-[url('/images/nuestra_propuesta_bg.jpg')] bg-no-repeat bg-cover relative">
+        <section className="nuestra-propuesta bg-[url('/images/nuestra_propuesta_bg.jpg')] bg-no-repeat bg-cover relative bg-fixed">
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-12">
             <div className="relative z-10">
@@ -51,6 +51,8 @@ export default function Home() {
                 <h3 className="text-white leftBorder mb-10">Nuestra propuesta</h3>
                 <p className="text-white text-justify">Somos un equipo de interdisciplinario de profesionales que buscamos brindar a nuestros clientes la mejor experiencia en inversiones inmobiliarias rurales y el desarrollo de proyectos productivos. Lo hacemos ofreciendo oportunidades de inversiones a medida de lo requerido, maximizando los beneficios económicos y generando la sustentabilidad de su inversión mediante el desarrollo de proyectos productivos adaptados al potencial de su propiedad.</p>
                 <p className="text-white text-justify">Nuestro servicio es personalizado, comprendiendo las necesidades e intereses de nuestros clientes, basando nuestra atención en la integridad de los valores necesarios para generar un vínculo de confianza, seguridad y transparencia.</p>
+                <hr className="h-1 w-full bg-greenMain my-5 border-0 rounded-sm" />
+                <p className="text-3xl text-white font-medium">Con Kerlin el futuro cobra vida</p>
               </div>
             </div>
           </div>
@@ -60,10 +62,14 @@ export default function Home() {
         {/* NUESTROS SERVICIOS: Begin */}
         <section>
           <div className="container">
+              <div className="text-center">
+                <h3 className="text-blueMain mb-10 mx-auto">¿Por qué elegirnos?</h3>
+              </div>
               <SliderServices />
           </div>
         </section>
         {/* NUESTROS SERVICIOS: End */}
+
     </main>
   );
 }

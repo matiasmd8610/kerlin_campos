@@ -192,7 +192,7 @@ header.fixed {
     z-index: 2;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.65);
   }
 }
 
@@ -201,6 +201,14 @@ header.fixed {
 .swiper-button-next,
 .swiper-button-prev {
   z-index: 5000 !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+
+  .swiper-pagination-bullet-active {
+    background-color: var(--color-green-main);
+  }
 }
 
 

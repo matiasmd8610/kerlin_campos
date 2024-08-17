@@ -27,7 +27,7 @@ const Header = () => {
     };
 
     return (
-        <header className={`py-4 top-0 z-50 w-full ${sticky}`}>
+        <header className={`py-3 top-0 z-50 w-full ${sticky}`}>
             <div className="container flex justify-between items-center">
                 <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_blue.png" width="200" height="200" alt="Logo Kerlin" />
                 <nav className={`top-[80px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed hidden lg:block lg:relative px-4 lg:px-0 ${active ? "active" : ""}`}>
