@@ -23,6 +23,13 @@ body {
   color: var(--color-main);
 }
 
+p {
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -37,7 +44,7 @@ h3 {
     display: block;
     width: 20%;
     position: absolute;
-    bottom: -1rem;
+    bottom: -0.8rem;
     height: 4px;
     background-color: var(--color-green-main);
     left: 50%;
@@ -68,7 +75,7 @@ h3 {
 
 .btn {
   padding: 0.7rem 2rem;
-  min-width: 200px;
+  /* min-width: 200px; */
   border-radius: 3rem;
   display: flex;
   align-items: center;
@@ -98,6 +105,15 @@ h3 {
 
     &:hover {
       background-color: var(--color-blue-dark);
+    }
+  }
+
+  &.btn-secondary {
+    background-color: var(--color-white);
+    color: var(--color-blue-main);
+
+    &:hover {
+      background-color: var(--color-gray-light-01);
     }
   }
 }
@@ -178,6 +194,14 @@ header.fixed {
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 1;
     }
+
+    .sliderHero {
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          background-color: var(--color-white);
+        }
+      }
+    }
   }
 }
 
@@ -193,7 +217,7 @@ header.fixed {
     z-index: 2;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -209,7 +233,7 @@ footer {
     z-index: 2;
     left: 0;
     top: 0;
-    background-color: rgba(32, 57, 111, 0.75);
+    background-color: rgba(32, 57, 111, 0.8);
   }
 }
 

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='bg-[url("/images/footer_bg.jpg")] bg-no-repeat bg-cover relative bg-fixed relative'>
         <div className="container relative z-10">
-          <div className='footer-top py-10 grid grid-cols-2'>
+          <div className='footer-top py-14 grid grid-cols-2'>
             <div className='footer-topLeft flex justify-center items-center flex-col'>
               <Image src={"/images/logo_kerlin_rounded.png"} alt="logo Kerlin" width={150} height={150} />
               <p className='text-white mt-10 mb-5'>Visitá nuestras redes</p>
@@ -38,16 +38,35 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className='footer-topRight'>
-              <form>
-                <p>kjkljkljk</p>
+            <div className='footer-topRight flex items-center flex-col'>
+              <h3 className='text-white mb-[60px]'>Contactanos</h3>
+              <form action='phpmailer.php'>
+                <div className='form-group mb-6'>
+                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base focus:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-blue-600 focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
+                </div>
+                <div className='form-group mb-6'>
+                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base' type='tel' name='telephone' id='telephone' placeholder='Teléfono' />
+                </div>
+                <div className='form-group mb-6'>
+                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base' type='email' name='email' id='email' placeholder='E-mail' />
+                </div>
+                <div className='form-group mb-8'>
+                  <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 lg:w-[550px] rounded-lg text-base h-[150px]'></textarea>
+                </div>
+                <button type='submit' id='send' name='send' value={"Enviar"} className='btn btn-secondary'>
+                  Enviar
+                  <svg className="icon" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4417 12.3334V7.66669H0.0349997L0 5.32169H10.4417V0.666687L16.275 6.50002L10.4417 12.3334Z" fill="#20396f"/>
+                  </svg>
+                </button>
               </form>
             </div>
           </div>
         </div>
         <div className='footer-bottom bg-blueMain py-4 relative z-20'>
           <div className='container'>
-            <p className='text-center text-white'>&copy; {new Date().getFullYear()}</p>
+            <p className='text-center text-white text-sm mb-1'>Matriculado Responsable: Beatriz Kerlin - Matricula 1023</p>
+            <p className='text-center text-white text-sm'>&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
           </div>
         </div>
     </footer>
