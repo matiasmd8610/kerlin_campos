@@ -52,11 +52,6 @@ const SliderServices = () => {
         <span className='font-semibold text-center inline-block mb-5 italic leading-6 text-blueMain'>Asesoramiento que Abre Caminos</span>
         <p className='text-base'>Te ofrecemos un asesoramiento que toca todos los puntos clave, dándote una visión 360° para que tu decisión sobre terrenos rurales sea tan clara como el agua de manantial.</p>
       </SwiperSlide>
-      <SwiperSlide className='bg-gray-100 rounded-md px-6 py-8 mt-[9rem] !h-auto'>
-        <Image className='mt-[-8rem] rounded-lg h-[180px] object-cover' src={"/images/calidad_y_potencial_tierras.jpg"} alt="" width={500} height={200} />
-        <h4 className='my-5 font-bold text-center text-xl leading-6'>Calidad y potencial de las tierras</h4>
-        <p className='text-center text-base'>Tenemos la capacidad de evaluar la calidad y potencial de las tierras, asesorando sobre los cultivos o actividades agropecuarias</p>
-      </SwiperSlide>
     </Swiper>
   )
 }

@@ -32,16 +32,22 @@ const Header = () => {
                 <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_blue.png" width="200" height="200" alt="Logo Kerlin" />
                 <nav className={`top-[80px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed hidden lg:block lg:relative px-4 lg:px-0 ${active ? "active" : ""}`}>
                     <ul className='flex flex-col lg:flex-row py-5 lg:py-0 items-center lg:items-start'>
-                        <li className='mb-3 lg:mb-0 lg:mr-3'>
+                        <li className='mb-3 lg:mb-0 lg:mr-2'>
                             <Link className="text-blueMain font-bold py-[7px] px-4 text-lg hover:text-white" href="#home">Home</Link>
                         </li>
-                        <li className='mb-3 lg:mb-0 lg:mr-3'>
+                        <li className='mb-3 lg:mb-0 lg:mr-1'>
+                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Nuestra Historia</Link>
+                        </li>
+                        <li className='mb-3 lg:mb-0 lg:mr-1'>
+                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Nuestro Equipo</Link>
+                        </li>
+                        <li className='mb-3 lg:mb-0 lg:mr-1'>
+                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Servicios</Link>
+                        </li>
+                        <li className='mb-3 lg:mb-0 lg:mr-1'>
                             <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Campos</Link>
                         </li>
-                        <li className='mb-3 lg:mb-0 lg:mr-3'>
-                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Nuestra Propuesta</Link>
-                        </li>
-                        <li>
+                        <li className='mb-3 lg:mb-0'>
                             <Link href="#" className="font-bold py-[7px] px-4 text-lg hover:text-white">Contacto</Link>
                         </li>
                     </ul>
