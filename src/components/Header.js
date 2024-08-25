@@ -33,10 +33,10 @@ const Header = () => {
                 <nav className={`top-[80px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed hidden lg:block lg:relative px-4 lg:px-0 ${active ? "active" : ""}`}>
                     <ul className='flex flex-col lg:flex-row py-5 lg:py-0 items-center lg:items-start'>
                         <li className='mb-3 lg:mb-0 lg:mr-2'>
-                            <Link className="text-blueMain font-bold py-[7px] px-4 text-lg hover:text-white" href="#home">Home</Link>
+                            <Link className="text-blueMain font-bold py-[7px] px-4 text-lg hover:text-white" href="/#main">Home</Link>
                         </li>
                         <li className='mb-3 lg:mb-0 lg:mr-1'>
-                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Nuestra Historia</Link>
+                            <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/#nuestra-historia">Nuestra Historia</Link>
                         </li>
                         <li className='mb-3 lg:mb-0 lg:mr-1'>
                             <Link className="font-bold py-[7px] px-4 text-lg hover:text-white" href="/campos">Nuestro Equipo</Link>

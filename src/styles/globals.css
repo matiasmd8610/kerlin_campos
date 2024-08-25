@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-main;
   font-size: 18px;
@@ -49,6 +53,7 @@ h3 {
     background-color: var(--color-green-main);
     left: 50%;
     transform: translateX(-50%);
+    min-width: 55px;
   }
 
   &.noBorder {
@@ -62,6 +67,14 @@ h3 {
       left: 0;
       transform: none;
     }
+  }
+}
+
+h2 {
+  font-size: 2.2rem;
+
+  @media (width >= 992px) {
+    font-size: 2.8rem;
   }
 }
 
@@ -234,6 +247,22 @@ footer {
     left: 0;
     top: 0;
     background-color: rgba(32, 57, 111, 0.8);
+  }
+}
+
+/*CAMPOS
+**********************************/
+.hero-section {
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 

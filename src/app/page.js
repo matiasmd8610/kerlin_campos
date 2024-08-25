@@ -27,7 +27,7 @@ export default function Home() {
         {/* HERO: End */}
 
         {/* NUESTRA HISTORIA: Begin */}
-        <section>
+        <section id="nuestra-historia">
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-[5rem]">
               <div>
