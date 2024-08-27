@@ -23,12 +23,12 @@ const SliderHero = () => {
         pagination={{ clickable: true, type: "bullets" }}
     >
       <SwiperSlide className='!flex flex-col items-center'>
-        <h2 className='text-white text-center text-[30px] lg:text-[40px] relative mb-8 noBorder max-w-[900px]'>Descubre la nueva era en comercialización de campos </h2>
-        <p className="text-white text-center relative text-xl">En <strong>KERLIN CAMPOS</strong> nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p>
+        <h2 className='text-white text-center text-[26px] lg:text-[40px] relative mb-8 noBorder max-w-[900px]'>Descubre la nueva era en comercialización de campos </h2>
+        <p className="text-white text-center relative text-base lg:text-xl">En <strong>KERLIN CAMPOS</strong> nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p>
       </SwiperSlide>
       <SwiperSlide className='!flex flex-col items-center'>
-        <h2 className='text-white text-center text-[30px] lg:text-[40px] relative mb-8 noBorder max-w-[950px]'>Descubre con nosotros una forma rápida, lista y moderna de comercializar campos</h2>
-        <p className="text-white text-center relative text-xl">Formamos un equipo con corazón de campo. Los ingenieros agrónomos que forman parte de nuestro personal saben todo sobre la tierra y cómo sacarle jugo. Además, nos hemos unido con algunas de las mejores empresas del rubro para darte consejos de primera sobre propiedades rurales. Para nosotros, innovar es como sembrar: ponemos las ideas más frescas en la tierra fértil de nuestro trabajo y de ahí brotan los éxitos de nuestros clientes.</p>
+        <h2 className='text-white text-center text-[26px] lg:text-[40px] relative mb-8 noBorder max-w-[950px]'>Descubre con nosotros una forma rápida, lista y moderna de comercializar campos</h2>
+        <p className="text-white text-center relative text-base lg:text-xl">Formamos un equipo con corazón de campo. Los ingenieros agrónomos que forman parte de nuestro personal saben todo sobre la tierra y cómo sacarle jugo. Además, nos hemos unido con algunas de las mejores empresas del rubro para darte consejos de primera sobre propiedades rurales. Para nosotros, innovar es como sembrar: ponemos las ideas más frescas en la tierra fértil de nuestro trabajo y de ahí brotan los éxitos de nuestros clientes.</p>
       </SwiperSlide>
     </Swiper>
   )

@@ -4,13 +4,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-[url("/images/footer_bg.jpg")] bg-no-repeat bg-cover relative bg-fixed relative'>
+    <footer id='footer' className='bg-[url("/images/footer_bg.jpg")] bg-no-repeat bg-cover relative bg-fixed relative'>
         <div className="container relative z-10">
-          <div className='footer-top py-14 grid grid-cols-2'>
+          <div className='footer-top py-14 grid lg:grid-cols-2'>
             <div className='footer-topLeft flex justify-center items-center flex-col'>
               <Image src={"/images/logo_kerlin_rounded.png"} alt="logo Kerlin" width={150} height={150} />
               <p className='text-white mt-10 mb-5'>Visitá nuestras redes</p>
-              <div className='social-links flex gap-4 items-center'>
+              <div className='social-links flex gap-4 items-center mb-10 lg:mb-0'>
                 <Link className='block w-10 h-10 rounded-full bg-blueMain flex items-center justify-center' href={"#"}>
                   <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 11.5H9.5L10.5 7.5H7V5.5C7 4.47 7 3.5 9 3.5H10.5V0.14C10.174 0.0970001 8.943 0 7.643 0C4.928 0 3 1.657 3 4.7V7.5H0V11.5H3V20H7V11.5Z" fill="#fff"/>
@@ -42,16 +42,16 @@ const Footer = () => {
               <h3 className='text-white mb-[60px]'>Contactanos</h3>
               <form action='phpmailer.php'>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base focus:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-blue-600 focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
+                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base focus:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-blue-600 focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
                 </div>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base' type='tel' name='telephone' id='telephone' placeholder='Teléfono' />
+                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base' type='tel' name='telephone' id='telephone' placeholder='Teléfono' />
                 </div>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 lg:w-[550px] rounded-lg text-base' type='email' name='email' id='email' placeholder='E-mail' />
+                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base' type='email' name='email' id='email' placeholder='E-mail' />
                 </div>
                 <div className='form-group mb-8'>
-                  <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 lg:w-[550px] rounded-lg text-base h-[150px]'></textarea>
+                  <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base h-[150px]'></textarea>
                 </div>
                 <button type='submit' id='send' name='send' value={"Enviar"} className='btn btn-secondary'>
                   Enviar

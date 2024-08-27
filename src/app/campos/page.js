@@ -10,19 +10,19 @@ const Campos = () => {
     setModalactive(!modalActive);
   }
 
-  const images1 = [
+  const imagesLasMellizas = [
     { src: 'images/gestion_integral.jpg', thumb: 'images/gestion_integral.jpg' },
     { src: 'images/servicios_inmobiliarios_rurales.jpg', thumb: 'images/servicios_inmobiliarios_rurales.jpg' },
   ];
 
-  const images2 = [
-    { src: 'images/marketing_digital.jpg', thumb: 'images/marketing_digital.jpg' },
-    { src: 'images/hero_bg.jpg', thumb: 'images/hero_bg.jpg' },
-  ];
+  // const images2 = [
+  //   { src: 'images/marketing_digital.jpg', thumb: 'images/marketing_digital.jpg' },
+  //   { src: 'images/hero_bg.jpg', thumb: 'images/hero_bg.jpg' },
+  // ];
   
   return (
-    <main id='main'>
-        <section className='hero-section relative bg-[url("/images/hero_campos_bg.jpg")] h-[260px] bg-no-repeat bg-cover flex items-center bg-bottom text-white'>
+    <main id='main' className='fields'>
+        <section className='hero-section relative bg-[url("/images/hero_campos_bg.jpg")] h-[200px] lg:h-[260px] bg-no-repeat bg-cover flex items-center bg-bottom text-white'>
             <div className='container relative z-10'>
               <h1 className='text-[30px] lg:text-[40px] uppercase text-center leftBorder'>Nuestros Campos</h1>
             </div>
@@ -32,7 +32,7 @@ const Campos = () => {
           {/* Las Mellizas: Begin */}
           <div className='field' id='las-mellizas'>
             <div className='container'>
-              <div className='grid lg:grid-cols-2 gap-[5rem]'>
+              <div className='grid lg:grid-cols-2 gap-10 lg:gap-[5rem]'>
                 <div>
                   <h2 className='leftBorder text-[28px] mb-10 uppercase'>Las Mellizas</h2>
                   <p className='flex items-center mb-1 text-xl'>
@@ -59,7 +59,7 @@ const Campos = () => {
                   <p>El campo es 100% agricola, ubicado a 2km del pavimento (ex ruta 21, actualmente Avenida Illia), acceso en muy buen estado. No cuenta con mejoras, salvo alambrado perimetral en muy buen estado.</p>
                 </div>
                 <div>
-                  <Gallery images={images1} />
+                  <Gallery images={imagesLasMellizas} />
                   {/* <iframe className='mt-10' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3334.6308955883137!2d-60.2688949!3d-33.3023181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDE4JzA4LjQiUyA2MMKwMTYnMDguMCJX!5e0!3m2!1ses-419!2sar!4v1724617503194!5m2!1ses-419!2sar" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                 </div>
               </div>
