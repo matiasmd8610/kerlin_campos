@@ -39,19 +39,19 @@ const Footer = () => {
               </div>
             </div>
             <div className='footer-topRight flex items-center flex-col'>
-              <h3 className='text-white mb-[60px]'>Contactanos</h3>
-              <form action='phpmailer.php'>
+              <h3 className='text-white mb-[60px]'>Dejanos tu consulta</h3>
+              <form className='w-full lg:w-[550px]' action='phpmailer.php'>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base focus:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-blue-600 focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
+                  <input className='p-3 px-4 w-full rounded-lg text-base focus:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-blue-600 focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido*' />
                 </div>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base' type='tel' name='telephone' id='telephone' placeholder='Teléfono' />
+                  <input className='p-3 px-4 w-full rounded-lg text-base' type='tel' name='telephone' id='telephone' placeholder='Teléfono' />
                 </div>
                 <div className='form-group mb-6'>
-                  <input className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base' type='email' name='email' id='email' placeholder='E-mail' />
+                  <input className='p-3 px-4 w-full rounded-lg text-base' type='email' name='email' id='email' placeholder='E-mail' />
                 </div>
                 <div className='form-group mb-8'>
-                  <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 w-full lg:w-[550px] rounded-lg text-base h-[150px]'></textarea>
+                  <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 w-full rounded-lg text-base h-[150px]'></textarea>
                 </div>
                 <button type='submit' id='send' name='send' value={"Enviar"} className='btn btn-secondary'>
                   Enviar

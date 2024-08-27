@@ -43,6 +43,11 @@ h3 {
   position: relative;
   display: inline-block;
 
+  @media (width <= 991px) {
+    text-align: center;
+    width: 100%;
+  }
+
   &:after {
     content: '';
     display: block;
@@ -64,8 +69,10 @@ h3 {
 
   &.leftBorder {
     &:after {
-      left: 0;
-      transform: none;
+      @media (width >= 992px) {
+        left: 0;
+        transform: none;
+      }
     }
   }
 }
@@ -133,6 +140,7 @@ h3 {
 
 section {
   padding: 2rem 0;
+  scroll-margin-top: 4em;
 
   @media (width >= 992px) {
     padding: 4rem 0;
@@ -265,6 +273,8 @@ header.fixed {
 /*FOOTER
 *******************************/
 footer {
+  scroll-margin-top: 4em;
+  
   &:after {
     content: '';
     display: block;
