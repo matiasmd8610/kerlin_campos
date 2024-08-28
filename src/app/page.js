@@ -38,7 +38,7 @@ export default function Home() {
                 <p className="text-justify">Nuestras alianzas con líderes del sector agropecuario abren puertas y crean oportunidades, conectándote con una red de posibilidades.</p>
               </div>
               <div>
-                <Image src={"/images/quienes_somos.jpg"} alt="Bulldozer" width={800} height={500} className="border-[6px] border-blueMain rounded-xl w-full rounded-bl-[120px]" />
+                <Image src={"/images/quienes_somos.jpg"} alt="Bulldozer" width={800} height={500} className="border-[6px] border-blueMain rounded-xl w-full rounded-bl-[90px] lg:rounded-bl-[120px]" />
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 <h3 className="text-white leftBorder mb-10">Nuestro Equipo</h3>
                 <p className="text-white lg:text-justify">Somos un grupo de entusiastas del campo y la tecnología: desde ingenieros agrónomos que aman la tierra hasta expertos del marketing digital y asesores inmobiliarios. Pero lo mejor es que no estamos solos en esto. Con el apoyo del Grupo Bee, que lleva más de 30 años cosechando éxitos en el agro, nuestra familia tiene una mezcla única de juventud y sabiduría.</p>
                 <p className="text-white lg:text-justify">En <strong>KERLIN CAMPOS</strong>, todos compartimos una misma pasión: el campo y su gente. Unimos nuestra energía y experiencia para darte el mejor servicio, con ese calor humano que solo un equipo unido por años de trabajar juntos puede ofrecerte. Porque para nosotros, cada hectárea, cada venta, y cada cliente son parte de nuestra gran historia rural.</p>
-                <hr className="h-0.5 w-full bg-greenMain my-9 border-0 rounded-sm" />
+                <hr className="h-0.5 w-full bg-greenMain my-6 lg:my-9 border-0 rounded-sm" />
                 {/* <p className="text-3xl text-white font-medium mb-8">Con Kerlin el futuro cobra vida</p> */}
                 <Image src={"/images/logo_grupo_bee.png"} alt="Logo Grupo Bee" width={150} height={50} />
               </div>
@@ -70,7 +70,7 @@ export default function Home() {
         <section id="servicios">
           <div className="container">
               <div className="text-center">
-                <h3 className="text-blueMain mb-14 mx-auto">Nuestros Servicios</h3>
+                <h3 className="text-blueMain mb-11 lg:mb-14 mx-auto">Nuestros Servicios</h3>
                 <p className='text-xl text-left'>Un equipo que siente el campo: más que servicios, en <strong>KERLIN CAMPOS</strong> te ofrecemos experiencias, acompañamiento y una relación que crece y prospera como el maíz en verano.</p>
                 <p className='text-xl text-left'>Para nosotros, cada cliente es único y cada campo tiene su propia historia. Por eso, te damos una atención personalizada, escuchando tus necesidades y cuidando cada detalle como si fuera nuestro.</p>
               </div>

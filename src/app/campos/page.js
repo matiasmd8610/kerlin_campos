@@ -1,5 +1,6 @@
 'use client'
 import Gallery from '@/components/Gallery';
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react'
 
 const Campos = () => {
@@ -11,8 +12,11 @@ const Campos = () => {
   }
 
   const imagesLasMellizas = [
-    { src: 'images/gestion_integral.jpg', thumb: 'images/gestion_integral.jpg' },
-    { src: 'images/servicios_inmobiliarios_rurales.jpg', thumb: 'images/servicios_inmobiliarios_rurales.jpg' },
+    { src: 'images/las-mellizas/las_mellizas_01.jpg', thumb: 'images/las-mellizas/las_mellizas_01.jpg' },
+    { src: 'images/las-mellizas/las_mellizas_02.jpg', thumb: 'images/las-mellizas/las_mellizas_02.jpg' },
+    { src: 'images/las-mellizas/las_mellizas_03.jpg', thumb: 'images/las-mellizas/las_mellizas_03.jpg' },
+    { src: 'images/las-mellizas/las_mellizas_04.jpg', thumb: 'images/las-mellizas/las_mellizas_04.jpg' },
+    { src: 'images/las-mellizas/las_mellizas_05.jpg', thumb: 'images/las-mellizas/las_mellizas_05.jpg' }
   ];
 
   // const images2 = [
@@ -35,13 +39,14 @@ const Campos = () => {
               <div className='grid lg:grid-cols-2 gap-10 lg:gap-[5rem]'>
                 <div>
                   <h2 className='leftBorder text-[28px] mb-10 uppercase'>Las Mellizas</h2>
-                  <p className='flex items-center mb-1 text-xl'>
-                    <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <p className='flex lg:items-center mb-1 text-xl'>
+                    <svg className='icon mr-2 w-5 h-5 shrink-0 translate-y-[0.5rem] lg:translate-y-0' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
                     </svg>
                     San Nicolas De Los Arroyos | San Nicolas | Interior Buenos Aires
                   </p>
-                  <button className="font-semibold underline ml-6 text-base text-blueMain"  type="button" onClick={() => openModal("las-mellizas")}>Ver en Google Maps</button>
+                  <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.3023181,-60.2688949"} target='_blank'>Ver en Google Maps</Link>
+                  {/* <button className="font-semibold underline ml-6 text-base text-blueMain"  type="button" onClick={() => openModal("las-mellizas")}>Ver en Google Maps</button> */}
                   <div className='flex items-center mt-5'>
                     <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
                     <span className='text-2xl font-bold'>USD 375.000</span>

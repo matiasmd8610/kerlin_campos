@@ -43,11 +43,6 @@ h3 {
   position: relative;
   display: inline-block;
 
-  @media (width <= 991px) {
-    text-align: center;
-    width: 100%;
-  }
-
   &:after {
     content: '';
     display: block;
@@ -69,10 +64,8 @@ h3 {
 
   &.leftBorder {
     &:after {
-      @media (width >= 992px) {
-        left: 0;
-        transform: none;
-      }
+      left: 0;
+      transform: none;
     }
   }
 }
@@ -308,6 +301,14 @@ footer {
   .field {
     .icon-magnifyingGlass {
       background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .gallery {
+      .gallery-item {
+        &:first-child {
+          z-index: 11;
+        }
+      }
     }
   }
 
