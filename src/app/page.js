@@ -10,12 +10,12 @@ export default function Home() {
       {/* HERO: Begin */}
       <section className='hero pt-0 pb-4 mt-2'>
             <div className='container'>
-                <div className='hero-content flex flex-col items-center bg-[url("/images/hero_bg.jpg")] min-h-[88vh] bg-no-repeat bg-cover rounded-3xl bg-bottom pt-[3rem] pb-5 px-4 lg:px-[100px] relative'>
+                <div className='hero-content flex flex-col items-center bg-[url("/images/hero_bg.jpg")] min-h-[84vh] lg:min-h-[88vh] bg-no-repeat bg-cover rounded-3xl bg-bottom pt-8 lg:pt-[3.5rem] pb-5 px-4 lg:px-[100px] relative'>
                     <h1 className='text-white text-center text-[34px] lg:text-[52px] z-10 relative uppercase font-extrabold'>Kerlin Campos</h1>
                     {/* <h2 className='text-white text-center text-[30px] lg:text-[42px] z-10 relative mt-10 mb-8 noBorder'>Descubre la nueva era en comercialización de campos </h2>
                     <p className="text-white text-center relative z-10 text-xl">En <strong>KERLIN CAMPOS</strong> Nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p> */}
                     <SliderHero />
-                    <Link href="#footer" className="btn btn-primary absolute translate-x-[-50%] bottom-[7rem] left-[50%] z-20 mt-[5rem]">
+                    <Link href="#footer" className="btn btn-primary absolute translate-x-[-50%] bottom-[3rem] lg:bottom-[5rem] left-[50%] z-20 mt-[5rem]">
                       Contactanos
                       <svg className="icon" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.4417 12.3334V7.66669H0.0349997L0 5.32169H10.4417V0.666687L16.275 6.50002L10.4417 12.3334Z" fill="white"/>
@@ -32,13 +32,12 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-[5rem]">
               <div>
                 <h3 className="text-blueMain leftBorder mb-10">Nuestra Historia</h3>
-                <p className="lg:text-justify">Entendemos cuánto cuenta para vos tener a alguien de confianza a tu lado cuando estás comprando o vendiendo un campo. Por eso, en <strong>KERLIN CAMPOS</strong>, nos hemos puesto las botas para ofrecerte un servicio que va de la mano con vos en cada paso: desde saber cada detalle del mercado hasta celebrar juntos al final de la venta.</p>
+                <p className="lg:text-justify">Entendemos cuánto cuenta tener a alguien de confianza a tu lado cuando estás comprando, vendiendo o alquilando un campo. Por eso, en <strong className="uppercase">Kerlin Campos</strong> nos hemos puesto las botas para ofrecer un servicio de calidad: desde saber cada detalle del mercado hasta celebrar juntos al final de la venta.</p>
                 <p className="lg:text-justify">Te lo pintamos claro y completo, con informes que te muestran todo: desde cómo está el suelo y el agua hasta el mejor camino para llegar. Te acompañamos con consejos legales, contables y financieros, porque sabemos que los números y la letra chica también importan.</p>
-                <p className="text-justify">Lo que nos mueve es la experiencia que tenemos en hacer tratos que terminan con apretones de manos y sonrisas de ambos lados. En <strong>KERLIN CAMPOS</strong>, nos llena de orgullo ser tu aliado completo y ofrecerte un servicio de primera que hace que todo valga la pena.</p>
-                <p className="text-justify">Nuestras alianzas con líderes del sector agropecuario abren puertas y crean oportunidades, conectándote con una red de posibilidades.</p>
+                <p className="text-justify">En <strong className="uppercase">Kerlin Campos</strong> nos llena de orgullo ser tu aliado completo y ofrecerte un servicio de primera que hace que todo valga la pena. Nuestras alianzas con líderes del sector agropecuario abren puertas y crean oportunidades, conectándote con una red de posibilidades.</p>
               </div>
               <div>
-                <Image src={"/images/quienes_somos.jpg"} alt="Bulldozer" width={800} height={500} className="border-[6px] border-blueMain rounded-xl w-full rounded-bl-[90px] lg:rounded-bl-[120px]" />
+                <Image src={"/images/quienes_somos.jpg"} alt="Bulldozer" width={800} height={500} className="border-[6px] border-greenMain rounded-xl w-full rounded-bl-[90px] lg:rounded-bl-[120px]" />
               </div>
             </div>
           </div>
@@ -51,15 +50,19 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-14">
             <div className="relative z-10 order-2 lg:order-1">
                 <Image src={"/images/nuestra_propuesta.jpg"} alt="Hombre casechando en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute top-0 left-0 mb-7" />
-                <Image src={"/images/marketing_digital.jpg"} alt="Equipo de Marketing Digital" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute bottom-0 right-2" />
+                <Image src={"/images/ingeniero_agronomo.jpg"} alt="Ingeniero Agrónomo en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute bottom-0 right-2" />
               </div>
               <div className="relative z-10 lg:order-2">
                 <h3 className="text-white leftBorder mb-10">Nuestro Equipo</h3>
-                <p className="text-white lg:text-justify">Somos un grupo de entusiastas del campo y la tecnología: desde ingenieros agrónomos que aman la tierra hasta expertos del marketing digital y asesores inmobiliarios. Pero lo mejor es que no estamos solos en esto. Con el apoyo del Grupo Bee, que lleva más de 30 años cosechando éxitos en el agro, nuestra familia tiene una mezcla única de juventud y sabiduría.</p>
-                <p className="text-white lg:text-justify">En <strong>KERLIN CAMPOS</strong>, todos compartimos una misma pasión: el campo y su gente. Unimos nuestra energía y experiencia para darte el mejor servicio, con ese calor humano que solo un equipo unido por años de trabajar juntos puede ofrecerte. Porque para nosotros, cada hectárea, cada venta, y cada cliente son parte de nuestra gran historia rural.</p>
+                <p className="text-white lg:text-justify">Formamos un equipo con corazón de campo. Los ingenieros agrónomos que forman parte de nuestro equipo saben todo sobre la tierra y cómo sacarle jugo. Además, nos hemos unido con algunas de las mejores empresas del rubro para darte consejos de primera sobre propiedades rurales. </p>
+                <p className="text-white lg:text-justify">Con el apoyo de la <strong>Cámara Argentina de Inmobiliarias Rurales</strong> y del <strong>Grupo Bee</strong> que lleva más de 30 años cosechando éxitos en la industria del agro, nuestra familia tiene una mezcla única de juventud y sabiduría.</p>
+                <p className="text-white lg:text-justify">En definitiva, en <strong className="uppercase">Kerlin Campos</strong> todos compartimos una misma pasión: el campo y su gente.</p>
                 <hr className="h-0.5 w-full bg-greenMain my-6 lg:my-9 border-0 rounded-sm" />
                 {/* <p className="text-3xl text-white font-medium mb-8">Con Kerlin el futuro cobra vida</p> */}
-                <Image src={"/images/logo_grupo_bee.png"} alt="Logo Grupo Bee" width={150} height={50} />
+                <div className="flex items-center gap-10">
+                  <Image src={"/images/logo_grupo_bee.png"} alt="Logo Grupo Bee" width={150} height={50} />
+                  <Image src={"/images/logo_cair.png"} alt="Logo CAIR" width={150} height={50} />
+                </div>
               </div>
             </div>
           </div>
@@ -71,8 +74,7 @@ export default function Home() {
           <div className="container">
               <div className="text-center">
                 <h3 className="text-blueMain mb-11 lg:mb-14 mx-auto">Nuestros Servicios</h3>
-                <p className='text-xl text-left'>Un equipo que siente el campo: más que servicios, en <strong>KERLIN CAMPOS</strong> te ofrecemos experiencias, acompañamiento y una relación que crece y prospera como el maíz en verano.</p>
-                <p className='text-xl text-left'>Para nosotros, cada cliente es único y cada campo tiene su propia historia. Por eso, te damos una atención personalizada, escuchando tus necesidades y cuidando cada detalle como si fuera nuestro.</p>
+                <p className='text-xl text-left'>Un Equipo que siente el Campo! En <strong>KERLIN CAMPOS</strong> te ofrecemos experiencias, acompañamiento y una relación que crece y prospera como el maíz en verano.</p>
               </div>
               <SliderServices />
           </div>

@@ -24,6 +24,7 @@ module.exports = {
       colors: {
         blueMain: 'var(--color-blue-main)',
         greenMain: 'var(--color-green-main)',
+        greenDark: 'var(--color-green-dark)',
         whatsapp: 'var(--color-whatsapp)'
       }
     },
