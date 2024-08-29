@@ -17,7 +17,7 @@ const Gallery = ({images}) => {
     };
 
     return (
-        <div className='gallery relative h-[240px] lg:h-[400px] w-full'>
+        <div className='gallery relative h-[260px] lg:h-[400px] w-full'>
             <LightGallery
                 onInit={onInit}
                 speed={500}

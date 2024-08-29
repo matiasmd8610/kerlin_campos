@@ -1,16 +1,29 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, {useEffect} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      // disable: "phone",
+      duration: 300,
+      // easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <footer id='footer' className='bg-[url("/images/footer_bg.jpg")] bg-no-repeat bg-cover relative bg-fixed relative'>
         <div className="container relative z-10">
           <div className='footer-top py-14 grid lg:grid-cols-2'>
             <div className='footer-topLeft flex justify-center items-center flex-col'>
-              <Image src={"/images/logo_kerlin_campos_rounded.png"} alt="logo Kerlin Campos" width={150} height={150} />
-              <p className='text-white mt-10 mb-6'>Visitá nuestras redes</p>
-              <div className='social-links flex gap-4 items-center mb-10 lg:mb-0'>
+              <Image src={"/images/logo_kerlin_campos_rounded.png"} alt="logo Kerlin Campos" width={150} height={150} data-aos="flip-up" />
+              <p className='text-white mt-10 mb-6' data-aos="fade-up">Visitá nuestras redes</p>
+              <div className='social-links flex gap-4 items-center mb-10 lg:mb-0' data-aos="fade-up">
                 <Link className='w-10 h-10 rounded-full bg-greenMain hover:bg-greenDark flex items-center justify-center transition-all' href={"https://www.facebook.com/kerlinbienesraices/"} target='_blank'>
                   <svg aria-label='Facebook' width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 11.5H9.5L10.5 7.5H7V5.5C7 4.47 7 3.5 9 3.5H10.5V0.14C10.174 0.0970001 8.943 0 7.643 0C4.928 0 3 1.657 3 4.7V7.5H0V11.5H3V20H7V11.5Z" fill="#fff"/>
@@ -39,8 +52,8 @@ const Footer = () => {
               </div>
             </div>
             <div className='footer-topRight flex items-center flex-col'>
-              <h3 className='text-white mb-[60px]'>Dejanos tu consulta</h3>
-              <form className='w-full lg:w-[550px]' action='phpmailer.php'>
+              <h3 className='text-white mb-[60px]' data-aos="fade-up">Dejanos tu consulta</h3>
+              <form className='w-full lg:w-[550px]' action='phpmailer.php' data-aos="fade-up">
                 <div className='form-group mb-6'>
                   <input className='p-3 px-4 w-full rounded-lg text-base focus:outline-none focus:outline-[3px] focus:outline-greenMain focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
                 </div>
@@ -53,7 +66,7 @@ const Footer = () => {
                 <div className='form-group mb-8'>
                   <textarea name='comment' id='comment' placeholder='Ingrese su mensaje aquí' className='p-3 px-4 w-full rounded-lg text-base h-[150px] focus:outline-none focus:outline-[3px] focus:outline-greenMain focus:outline-offset-0 transition-all'></textarea>
                 </div>
-                <button type='submit' id='send' name='send' value={"Enviar"} className='btn btn-secondary'>
+                <button type='submit' id='send' name='send' value={"Enviar"} className='btn btn-secondary' data-aos="fade-up">
                   Enviar
                   <svg className="icon" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.4417 12.3334V7.66669H0.0349997L0 5.32169H10.4417V0.666687L16.275 6.50002L10.4417 12.3334Z" fill="#0b9444" />

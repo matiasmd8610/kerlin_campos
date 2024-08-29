@@ -45,12 +45,12 @@ export default function Home() {
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-[5rem]">
               <div>
-                <h3 className="text-blueMain leftBorder mb-10">Nuestra Historia</h3>
-                <p className="lg:text-justify">Entendemos cuánto cuenta tener a alguien de confianza a tu lado cuando estás comprando, vendiendo o alquilando un campo. Por eso, en <strong className="uppercase">Kerlin Campos</strong> nos hemos puesto las botas para ofrecer un servicio de calidad: desde saber cada detalle del mercado hasta celebrar juntos al final de la venta.</p>
-                <p className="lg:text-justify">Te lo pintamos claro y completo, con informes que te muestran todo: desde cómo está el suelo y el agua hasta el mejor camino para llegar. Te acompañamos con consejos legales, contables y financieros, porque sabemos que los números y la letra chica también importan.</p>
-                <p className="text-justify">En <strong className="uppercase">Kerlin Campos</strong> nos llena de orgullo ser tu aliado completo y ofrecerte un servicio de primera que hace que todo valga la pena. Nuestras alianzas con líderes del sector agropecuario abren puertas y crean oportunidades, conectándote con una red de posibilidades.</p>
+                <h3 className="text-blueMain leftBorder mb-10" data-aos="fade-up">Nuestra Historia</h3>
+                <p className="lg:text-justify" data-aos="fade-up">Entendemos cuánto cuenta tener a alguien de confianza a tu lado cuando estás comprando, vendiendo o alquilando un campo. Por eso, en <strong className="uppercase">Kerlin Campos</strong> nos hemos puesto las botas para ofrecer un servicio de calidad: desde saber cada detalle del mercado hasta celebrar juntos al final de la venta.</p>
+                <p className="lg:text-justify" data-aos="fade-up">Te lo pintamos claro y completo, con informes que te muestran todo: desde cómo está el suelo y el agua hasta el mejor camino para llegar. Te acompañamos con consejos legales, contables y financieros, porque sabemos que los números y la letra chica también importan.</p>
+                <p className="text-justify" data-aos="fade-up">En <strong className="uppercase">Kerlin Campos</strong> nos llena de orgullo ser tu aliado completo y ofrecerte un servicio de primera que hace que todo valga la pena. Nuestras alianzas con líderes del sector agropecuario abren puertas y crean oportunidades, conectándote con una red de posibilidades.</p>
               </div>
-              <div>
+              <div data-aos="fade-up">
                 <Image src={"/images/quienes_somos.jpg"} alt="Bulldozer" width={800} height={500} className="border-[6px] border-greenMain rounded-xl w-full rounded-bl-[90px] lg:rounded-bl-[120px]" />
               </div>
             </div>
@@ -63,17 +63,17 @@ export default function Home() {
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-14">
             <div className="relative z-10 order-2 lg:order-1">
-                <Image src={"/images/nuestra_propuesta.jpg"} alt="Hombre casechando en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute top-0 left-0 mb-7" />
-                <Image src={"/images/ingeniero_agronomo.jpg"} alt="Ingeniero Agrónomo en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute bottom-0 right-2" />
+                <Image src={"/images/nuestra_propuesta.jpg"} alt="Hombre casechando en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute top-0 left-0 mb-7" data-aos="fade-up" />
+                <Image src={"/images/ingeniero_agronomo.jpg"} alt="Ingeniero Agrónomo en el campo" width={300} height={200} className="border-[4px] border-white w-full lg:w-[65%] block rounded-xl lg:absolute bottom-0 right-2" data-aos="fade-up" />
               </div>
               <div className="relative z-10 lg:order-2">
-                <h3 className="text-white leftBorder mb-10">Nuestro Equipo</h3>
-                <p className="text-white lg:text-justify">Formamos un equipo con corazón de campo. Los ingenieros agrónomos que forman parte de nuestro equipo saben todo sobre la tierra y cómo sacarle jugo. Además, nos hemos unido con algunas de las mejores empresas del rubro para darte consejos de primera sobre propiedades rurales. </p>
-                <p className="text-white lg:text-justify">Con el apoyo de la <strong>Cámara Argentina de Inmobiliarias Rurales</strong> y del <strong>Grupo Bee</strong> que lleva más de 30 años cosechando éxitos en la industria del agro, nuestra familia tiene una mezcla única de juventud y sabiduría.</p>
-                <p className="text-white lg:text-justify">En definitiva, en <strong className="uppercase">Kerlin Campos</strong> todos compartimos una misma pasión: el campo y su gente.</p>
+                <h3 className="text-white leftBorder mb-10" data-aos="fade-up">Nuestro Equipo</h3>
+                <p className="text-white lg:text-justify" data-aos="fade-up">Formamos un equipo con corazón de campo. Los ingenieros agrónomos que forman parte de nuestro equipo saben todo sobre la tierra y cómo sacarle jugo. Además, nos hemos unido con algunas de las mejores empresas del rubro para darte consejos de primera sobre propiedades rurales. </p>
+                <p className="text-white lg:text-justify" data-aos="fade-up">Con el apoyo de la <strong>Cámara Argentina de Inmobiliarias Rurales</strong> y del <strong>Grupo Bee</strong> que lleva más de 30 años cosechando éxitos en la industria del agro, nuestra familia tiene una mezcla única de juventud y sabiduría.</p>
+                <p className="text-white lg:text-justify" data-aos="fade-up">En definitiva, en <strong className="uppercase">Kerlin Campos</strong> todos compartimos una misma pasión: el campo y su gente.</p>
                 <hr className="h-0.5 w-full bg-greenMain my-6 lg:my-9 border-0 rounded-sm" />
                 {/* <p className="text-3xl text-white font-medium mb-8">Con Kerlin el futuro cobra vida</p> */}
-                <div className="flex items-center gap-10">
+                <div className="flex items-center gap-10" data-aos="fade-up">
                   <Image src={"/images/logo_grupo_bee.png"} alt="Logo Grupo Bee" width={150} height={50} />
                   <Image src={"/images/logo_cair.png"} alt="Logo CAIR" width={150} height={50} />
                 </div>
@@ -87,10 +87,12 @@ export default function Home() {
         <section id="servicios">
           <div className="container">
               <div className="text-center">
-                <h3 className="text-blueMain mb-11 lg:mb-14 mx-auto">Nuestros Servicios</h3>
-                <p className='text-xl text-left'>Un Equipo que siente el Campo! En <strong>KERLIN CAMPOS</strong> te ofrecemos experiencias, acompañamiento y una relación que crece y prospera como el maíz en verano.</p>
+                <h3 className="text-blueMain mb-11 lg:mb-14 mx-auto" data-aos="fade-up">Nuestros Servicios</h3>
+                <p className='text-xl text-left' data-aos="fade-up">Un Equipo que siente el Campo! En <strong>KERLIN CAMPOS</strong> te ofrecemos experiencias, acompañamiento y una relación que crece y prospera como el maíz en verano.</p>
               </div>
-              <SliderServices />
+              <div data-aos="fade-up">
+                <SliderServices />
+              </div>
           </div>
         </section>
         {/* NUESTROS SERVICIOS: End */}
