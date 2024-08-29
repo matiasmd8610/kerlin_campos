@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 // import "../styles/header.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
     const [active, setActive] = useState(false);
@@ -37,11 +38,20 @@ const Header = () => {
         }
     }
 
+    useEffect(() => {
+        AOS.init({
+          once: true,
+          // disable: "phone",
+          duration: 300,
+          // easing: "ease-out-cubic",
+        });
+    }, []);
+
     return (
         <header id='header' className={`py-3 top-0 z-50 w-full ${sticky}`}>
             <div className="container flex justify-between items-center">
                 <Link href={"/"}>
-                    <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_campos.png" width="200" height="100" alt="Logo Kerlin Campos" />
+                    <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_campos.png" width="200" height="100" alt="Logo Kerlin Campos" data-aos="fade-right" />
                 </Link>
                 <nav className={`top-[78px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed lg:block lg:relative px-4 lg:px-0 pt-4 lg:pt-0 ${active ? "active" : ""}`}>
                     <ul className='flex flex-col lg:flex-row py-5 lg:py-0 items-center lg:items-start' onClick={menuClose}>

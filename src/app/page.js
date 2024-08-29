@@ -29,7 +29,7 @@ export default function Home() {
                     {/* <h2 className='text-white text-center text-[30px] lg:text-[42px] z-10 relative mt-10 mb-8 noBorder'>Descubre la nueva era en comercialización de campos </h2>
                     <p className="text-white text-center relative z-10 text-xl">En <strong>KERLIN CAMPOS</strong> Nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p> */}
                     <SliderHero />
-                    <Link href="#footer" className="btn btn-primary absolute translate-x-[-50%] bottom-[3rem] lg:bottom-[5rem] left-[50%] z-20 mt-[5rem]">
+                    <Link href="#footer" className="btn btn-primary absolute !translate-x-[-50%] bottom-[3rem] lg:bottom-[5rem] left-[50%] z-20 mt-[5rem]">
                       Contactanos
                       <svg className="icon" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.4417 12.3334V7.66669H0.0349997L0 5.32169H10.4417V0.666687L16.275 6.50002L10.4417 12.3334Z" fill="white"/>

@@ -219,6 +219,24 @@ header {
       }
     }
   }
+
+  .menuMobile {
+    span {
+      transition: all 0.3s ease;
+    }
+
+    &.menuMobile--open {
+      span {
+        &:first-child {
+          transform: rotate(45deg) translateY(7px);
+        }
+
+        &:last-child {
+          transform: rotate(-45deg) translateY(-7px);
+        }
+      }
+    }
+  }
 }
 
 header.fixed {
@@ -244,6 +262,11 @@ header.fixed {
       top: 0;
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 1;
+    }
+
+    .btn {
+      animation: opacity 1.1s both;
+      animation-delay: 3s;
     }
 
     .sliderHero {
@@ -351,5 +374,14 @@ footer {
 
   100% {
       top: 0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
