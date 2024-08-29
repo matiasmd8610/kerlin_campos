@@ -33,10 +33,9 @@ const SliderHero = () => {
             disableOnInteraction: false,
         }}
         pagination={{ clickable: true, type: "bullets" }}
-        data-aos="fade-up" data-aos-delay="500"
     >
       <SwiperSlide className='!flex flex-col items-center'>
-        <h2 className='text-white text-center text-[26px] lg:text-[40px] relative mb-8 noBorder max-w-[900px]' data-aos="fade-right">Descubre la nueva era en comercialización de campos</h2>
+        <h2 className='text-white text-center text-[26px] lg:text-[40px] relative mb-8 noBorder max-w-[900px]'>Descubre la nueva era en comercialización de campos</h2>
         <p className="text-white text-center relative text-base lg:text-xl">En <strong>KERLIN CAMPOS</strong> nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p>
         <p className="text-white text-center relative text-base lg:text-xl">Descubre con nosotros una forma rápida, lista y moderna de comercializar campos.</p>
       </SwiperSlide>
