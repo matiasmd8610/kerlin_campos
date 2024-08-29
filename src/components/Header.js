@@ -41,7 +41,7 @@ const Header = () => {
         <header id='header' className={`py-3 top-0 z-50 w-full ${sticky}`}>
             <div className="container flex justify-between items-center">
                 <Link href={"/"}>
-                    <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_campos.png" width="200" height="200" alt="Logo Kerlin Campos" />
+                    <Image className="logo w-[120px] h-[auto]" src="/images/logo_kerlin_campos.png" width="200" height="100" alt="Logo Kerlin Campos" />
                 </Link>
                 <nav className={`top-[78px] lg:top-0 w-screen lg:w-auto left-0 lg:left-initial fixed lg:block lg:relative px-4 lg:px-0 pt-4 lg:pt-0 ${active ? "active" : ""}`}>
                     <ul className='flex flex-col lg:flex-row py-5 lg:py-0 items-center lg:items-start' onClick={menuClose}>
