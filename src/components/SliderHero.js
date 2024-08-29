@@ -22,7 +22,7 @@ const SliderHero = () => {
 
   return (
     <Swiper
-        className='sliderHero relative !z-20 w-full mt-10 !pb-[7rem] lg:!pb-[11rem]'
+        className='sliderHero relative !z-20 w-full mt-10 !pb-[7.5rem] lg:!pb-[11rem]'
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
