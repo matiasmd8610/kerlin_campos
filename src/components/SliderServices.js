@@ -11,7 +11,7 @@ import Image from 'next/image';
 const SliderServices = () => {
   return (
     <Swiper
-        className='sliderServices !pb-10'
+        className='sliderServices !pb-10 lg:!pb-0'
         modules={[Navigation, Pagination]}
         spaceBetween={30}
         slidesPerView={1}

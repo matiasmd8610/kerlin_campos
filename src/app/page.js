@@ -24,7 +24,7 @@ export default function Home() {
       {/* HERO: Begin */}
       <section className='hero pt-0 pb-4 mt-2'>
             <div className='container'>
-                <div className='hero-content flex flex-col items-center bg-[url("/images/hero_bg.jpg")] min-h-auto lg:min-h-[88vh] bg-no-repeat bg-cover rounded-3xl bg-center pt-8 lg:pt-[3.5rem] pb-5 px-4 lg:px-[100px] relative'>
+                <div className='hero-content flex flex-col items-center bg-[url("/images/hero_bg.jpg")] min-h-auto lg:min-h-[630px] bg-no-repeat bg-cover rounded-3xl bg-center pt-8 lg:pt-[3.5rem] pb-5 px-4 lg:px-[100px] relative'>
                     <h1 className='text-white text-center text-[34px] lg:text-[52px] z-10 relative uppercase font-extrabold' data-aos="fade-left">Kerlin Campos</h1>
                     {/* <h2 className='text-white text-center text-[30px] lg:text-[42px] z-10 relative mt-10 mb-8 noBorder'>Descubre la nueva era en comercialización de campos </h2>
                     <p className="text-white text-center relative z-10 text-xl">En <strong>KERLIN CAMPOS</strong> Nos encanta lo que hacemos y siempre estamos buscando maneras nuevas y creativas para hacer las cosas. Con la ayuda de lo último en inteligencia artificial y marketing digital, conseguimos resultados increíbles para quienes quieren comprar o vender sus campos.</p> */}
