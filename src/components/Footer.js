@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className='footer-topRight flex items-center flex-col'>
               <h3 className='text-white mb-[60px]' data-aos="fade-up">Dejanos tu consulta</h3>
-              <form className='w-full lg:w-[550px]' action='phpmailer.php' data-aos="fade-up">
+              <form className='w-full lg:w-[550px]' action='sendmail.php' data-aos="fade-up">
                 <div className='form-group mb-6'>
                   <input className='p-3 px-4 w-full rounded-lg text-base focus:outline-none focus:outline-[3px] focus:outline-greenMain focus:outline-offset-0 transition-all' type='text' name='name' id='name' placeholder='Nombre y Apellido' />
                 </div>
