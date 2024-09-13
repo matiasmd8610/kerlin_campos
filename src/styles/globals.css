@@ -370,6 +370,17 @@ footer {
   }
 }
 
+/*Thank You page
+*******************************/
+#thank-you {
+
+  h1 {
+    &::after {
+      display: none;
+    }
+  }
+}
+
 /*SWIPER
 ********************************/
 .swiper-button-next,
