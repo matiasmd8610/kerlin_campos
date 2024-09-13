@@ -12,11 +12,11 @@ const Campos = () => {
   }
 
   const images100agricola = [
-    { src: 'images/100agricola/100agricola_01.jpg', thumb: 'images/100agricola/100agricola_01.jpg' },
-    { src: 'images/100agricola/100agricola_02.jpg', thumb: 'images/100agricola/100agricola_02.jpg' },
-    { src: 'images/100agricola/100agricola_03.jpg', thumb: 'images/100agricola/100agricola_03.jpg' },
-    { src: 'images/100agricola/100agricola_04.jpg', thumb: 'images/100agricola/100agricola_04.jpg' },
-    { src: 'images/100agricola/100agricola_05.jpg', thumb: 'images/100agricola/100agricola_05.jpg' }
+    { src: '/images/100agricola/100agricola_01.jpg', thumb: '/images/100agricola/100agricola_01.jpg' },
+    { src: '/images/100agricola/100agricola_02.jpg', thumb: '/images/100agricola/100agricola_02.jpg' },
+    { src: '/images/100agricola/100agricola_03.jpg', thumb: '/images/100agricola/100agricola_03.jpg' },
+    { src: '/images/100agricola/100agricola_04.jpg', thumb: '/images/100agricola/100agricola_04.jpg' },
+    { src: '/images/100agricola/100agricola_05.jpg', thumb: '/images/100agricola/100agricola_05.jpg' }
   ];
 
   // const images2 = [
