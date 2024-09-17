@@ -40,7 +40,7 @@ const Footer = () => {
                     <path d="M8 10L13.19 7L8 4V10ZM19.56 2.17C19.69 2.64 19.78 3.27 19.84 4.07C19.91 4.87 19.94 5.56 19.94 6.16L20 7C20 9.19 19.84 10.8 19.56 11.83C19.31 12.73 18.73 13.31 17.83 13.56C17.36 13.69 16.5 13.78 15.18 13.84C13.88 13.91 12.69 13.94 11.59 13.94L10 14C5.81 14 3.2 13.84 2.17 13.56C1.27 13.31 0.69 12.73 0.44 11.83C0.31 11.36 0.22 10.73 0.16 9.93C0.0900001 9.13 0.0599999 8.44 0.0599999 7.84L0 7C0 4.81 0.16 3.2 0.44 2.17C0.69 1.27 1.27 0.69 2.17 0.44C2.64 0.31 3.5 0.22 4.82 0.16C6.12 0.0899998 7.31 0.0599999 8.41 0.0599999L10 0C14.19 0 16.8 0.16 17.83 0.44C18.73 0.69 19.31 1.27 19.56 2.17Z" fill="#fff"/>
                   </svg>
                 </Link>
-                <Link className='w-10 h-10 rounded-full bg-greenMain hover:bg-greenDark flex items-center justify-center transition-all' href={"https://www.youtube.com/channel/UCO_9kE0eTwwPHhsSEK-htsw"} target='_blank'>
+                <Link className='w-10 h-10 rounded-full bg-greenMain hover:bg-greenDark flex items-center justify-center transition-all' href={"https://www.tiktok.com/@kerlinbienesraices?lang=es"} target='_blank'>
                   <svg aria-label='TikTok' width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.6 2.82C11.9166 2.03953 11.5399 1.0374 11.54 0H8.45V12.4C8.42667 13.0712 8.14352 13.7071 7.66031 14.1735C7.1771 14.6399 6.5316 14.9004 5.86 14.9C4.44 14.9 3.26 13.74 3.26 12.3C3.26 10.58 4.92 9.29 6.63 9.82V6.66C3.18 6.2 0.160004 8.88 0.160004 12.3C0.160004 15.63 2.92 18 5.85 18C8.99 18 11.54 15.45 11.54 12.3V6.01C12.793 6.90985 14.2974 7.39265 15.84 7.39V4.3C15.84 4.3 13.96 4.39 12.6 2.82Z" fill="#fff"/>
                   </svg>
