@@ -16,12 +16,12 @@ $telephone = $_POST["telephone"];
 $email = $_POST["email"];
 $comment = $_POST["comment"];
 
-$recaptcha_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$_POST['g-recaptcha-response']);
-$response = json_decode($response, true);
+// $recaptcha_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+// $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$_POST['g-recaptcha-response']);
+// $response = json_decode($response, true);
 
 $body = <<<HTML
-    <h1>Mensaje recibido desde kerlincampos.com.ar</h1>
+    <h1 style="font-size: 22px;">Mensaje recibido desde kerlincampos.com.ar</h1>
     <p>De: $name | $telephone | $email</p>
     $comment
 HTML;
@@ -57,14 +57,20 @@ $mail->Subject = "Mensaje recibido desde kerlincampos.com.ar"; // Este es el tit
 $mail->Body = $body; // Texto del email en formato HTML
 // FIN - VALORES A MODIFICAR //
 
-if($response["success"] === true) {
-    $estadoEnvio = $mail->Send(); 
-    if($estadoEnvio){
-        header("Location: thank-you.html" );
-    } else {
-        header("Location: 404.html" );
-    }
-} else {
-    header("Location: 404.html" );
-}
+// if($response["success"] === true) {
+//     $estadoEnvio = $mail->Send(); 
+//     if($estadoEnvio){
+//         header("Location: thank-you.html" );
+//     } else {
+//         header("Location: 404.html" );
+//     }
+// } else {
+//     header("Location: 404.html" );
+// }
 
+$estadoEnvio = $mail->Send(); 
+if($estadoEnvio){
+    header("Location: /thank-you" );
+} else {
+    header("Location: /404" );
+}
