@@ -339,8 +339,19 @@ footer {
   }
 
   .field {
+    padding: 3rem 0;
+
+    &:nth-child(even) {
+      background-color: var(--color-gray-extra-light-01);
+    }
+
     .icon-magnifyingGlass {
       background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .services {
+      list-style: disc;
+      padding-left: 1rem;
     }
 
     .gallery {
