@@ -361,6 +361,18 @@ footer {
         }
       }
     }
+
+    .fieldInfo {
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    iframe {
+      @media (width <= 991px) {
+        height: 300px;
+      }
+    }
   }
 
 }
