@@ -154,6 +154,37 @@ const Campos = () => {
     { src: '/images/lujan/lujan_19.jpg', thumb: '/images/lujan/lujan_19.jpg' },
     { src: '/images/lujan/lujan_20.jpg', thumb: '/images/lujan/lujan_20.jpg' }
   ];
+
+  const imagesRojas = [
+    { src: '/images/rojas/rojas_01.jpg', thumb: '/images/rojas/rojas_01.jpg' },
+    { src: '/images/rojas/rojas_02.jpg', thumb: '/images/rojas/rojas_02.jpg' },
+    { src: '/images/rojas/rojas_03.jpg', thumb: '/images/rojas/rojas_03.jpg' },
+    { src: '/images/rojas/rojas_04.jpg', thumb: '/images/rojas/rojas_04.jpg' },
+    { src: '/images/rojas/rojas_05.jpg', thumb: '/images/rojas/rojas_05.jpg' }
+  ];
+
+  const imagesCampoMixto = [
+    { src: '/images/campo_mixto/campo_mixto_01.jpg', thumb: '/images/campo_mixto/campo_mixto_01.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_02.jpg', thumb: '/images/campo_mixto/campo_mixto_02.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_03.jpg', thumb: '/images/campo_mixto/campo_mixto_03.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_04.jpg', thumb: '/images/campo_mixto/campo_mixto_04.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_05.jpg', thumb: '/images/campo_mixto/campo_mixto_05.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_06.jpg', thumb: '/images/campo_mixto/campo_mixto_06.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_07.jpg', thumb: '/images/campo_mixto/campo_mixto_07.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_08.jpg', thumb: '/images/campo_mixto/campo_mixto_08.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_09.jpg', thumb: '/images/campo_mixto/campo_mixto_09.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_10.jpg', thumb: '/images/campo_mixto/campo_mixto_10.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_11.jpg', thumb: '/images/campo_mixto/campo_mixto_11.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_12.jpg', thumb: '/images/campo_mixto/campo_mixto_12.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_13.jpg', thumb: '/images/campo_mixto/campo_mixto_13.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_14.jpg', thumb: '/images/campo_mixto/campo_mixto_14.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_15.jpg', thumb: '/images/campo_mixto/campo_mixto_15.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_16.jpg', thumb: '/images/campo_mixto/campo_mixto_16.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_17.jpg', thumb: '/images/campo_mixto/campo_mixto_17.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_18.jpg', thumb: '/images/campo_mixto/campo_mixto_18.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_19.jpg', thumb: '/images/campo_mixto/campo_mixto_19.jpg' },
+    { src: '/images/campo_mixto/campo_mixto_20.jpg', thumb: '/images/campo_mixto/campo_mixto_20.jpg' }
+  ];
   
   return (
     <main id='main' className='fields'>
@@ -566,6 +597,113 @@ const Campos = () => {
           </div>
         </div>
         {/* Lujan: End */}
+
+        {/* Rojas: Begin */}
+        <div className='field' id='rojas'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Rojas</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Rojas | Interior Buenos Aires | Argentina
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.197698,-60.7338035"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 14.900.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 16000000.0 HA</span>
+                </div>
+              </div>
+              <div>
+                <Gallery images={imagesRojas} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Rojas: End */}
+
+        {/* Campo Mixto: Begin */}
+        <div className='field' id='campo-mixto'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Excelente Campo mixto de 1400 has sobre Panamericana. km 120</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Baradero | Interior Buenos Aires | Argentina
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.812014,-59.50464"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 20.600.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
+                  <span className='block'><strong>Ambientes:</strong> 6</span>
+                  <span className='block'><strong>Dormitorios:</strong> 5</span>
+                  <span className='block'><strong>Baños:</strong> 3</span>
+                  <span className='block'><strong>Piso:</strong> 1</span>
+                  <span className='block'><strong>Antigüedad:</strong> 20 años</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 1377.00 HA</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Muy buen campo Mixto de 1370 hectáreas a 120 km de Ciudad Autónoma de Buenos Aires. Aproximadamente es un 50% agrícola y un 50% ganadero. Tiene un Casco principal de aprox 300 m2, con 3 dormitorios, los 3 en suite. Living comedor, cocina y gran galeria. Casa de Huespedes con 2 dormitorios en suite. Gran Piscina de 14 x 7 Casa de encargados. Galpon Cuadro de ambiente: A 1 Buena a muy buena Agricultura – ganadería Ambiente 1 productividad Suelos aptos para cultivos y ganadería . Suelen requerir prácticas de manejo conservacionista sobre todo en sectores con pendientes significativas . para evitar riesgos de erosión . Ocupa posiciones de lomas suavemente disectadas lomadas altas y pié de lomas . Aptitud : cultivos ( soja , trigo, girasol ), ganadería sobre pasturas artificiales . A 2 Buena productividad Agricultura – ganadería Ambiente 2 Suelos aptos para cultivos y ganadería . Limitaciones : dado sus posiciones de pendientes requiere de prácticas de manejo y conservación a modo de disminuir susceptibilidad a sufrir procesos erosivos. Ocupa sectores de pendientes moderadas . Aptitud : cultivos ( soja ,trigo, girasol ), ganadería sobre pasturas artificiales o naturales mejoradas . A 3 Regular productividad Ganadería – agricultura con limitaciones Ambiente 3 Suelos aptos para destinos ganaderos y agricultura con limitaciones . Limitaciones : susceptibilidad a erosión en sectores de pendientes, y drenaje imperfecto con acumulación de humedad y alcalinidad en sus posiciones de pie de pendiente y bajos . Corresponde a sectores de pendientes suaves, con sectores erosionados y planos bajos con áreas de derrames de sectores bajos , y arroyos . Aptitud : Ganadería sobre pasturas naturales o mejoradas. A 4 Baja productividad Ganadería - forestación - apoyo ganadero Ambiente 1 Suelos con destino ganadero . Limitaciones : Excesos de humedad , anegamientos y alcalinidad Ocupa sectores de planos aluviales , con suelos no diferenciados , anegables en forma periódica . Aptitud : Apoyo ganadero , forestación con especies adaptadas a condiciones de anegamientos periódicos y alcalinidad .</p>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Servicios</h4>
+                  <ul className='services mb-5'>
+                    <li>Electricidad</li>
+                    <li>Pavimento</li>
+                    <li>Agua Potable</li>
+                  </ul>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Ambientes</h4>
+                  <ul className='services mb-5'>
+                    <li>Cocina</li>
+                    <li>Comedor diario</li>
+                    <li>Suite</li>
+                    <li>Living Comedor</li>
+                  </ul>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Adicionales</h4>
+                  <ul className='services mb-5'>
+                    <li>Parrilla</li>
+                    <li>Ruta</li>
+                    <li>Pileta</li>
+                    <li>Frente a carretera</li>
+                    <li>Polo</li>
+                    <li>Campo productivo</li>
+                    <li>Arroyo interior</li>
+                    <li>Apto Ganaderia</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <Gallery images={imagesCampoMixto} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Campo Mixto: End */}
 
       </section>
     </main>
