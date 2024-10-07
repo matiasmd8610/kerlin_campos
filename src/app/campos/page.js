@@ -229,7 +229,6 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Cuartel primero de campaña, señalado con el número nueve, compuesta su superficie de cincuenta hectáreas, sesenta y dos áreas, veinte centiareas y treinta decímetros cuadrados.</p>
                 <p>El campo es 100% agricola, ubicado a 2km del pavimento (ex ruta 21, actualmente Avenida Illia), acceso en muy buen estado. No cuenta con mejoras, salvo alambrado perimetral en muy buen estado.</p>
               </div>
               <div>
@@ -245,7 +244,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Zarate</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo 100% agrícola</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -260,16 +259,16 @@ const Campos = () => {
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span><strong>Superficie:</strong> 14700000.0 HA</span>
+                  <span><strong>Superficie:</strong> 1470 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>732 has El campo se ubica sobre el camino real de tierra que costea las vías del ex ferrocarril general Bartolomé Mitre, a la altura de la Estación Atucha, en las localidades de Lima y Alsina. La autovía nacional Nº 9 se encuentra a tan solo 7,5 km en dirección noroeste. CARACTERÍSTICAS: El campo se encuentra en el extremo noroeste de la Provincia de Buenos Aires, dentro de la región conocida como Pampa Ondulada. Esta se caracteriza por presentar un relieve conformado por amplias lomadas, recortadas por arroyos y cursos de agua, que actúan como vías de drenaje. La aptitud de la Pampa ondulada es eminentemente agrícola. Su topografía, conscientemente con la de la zona, ondulada a suavemente ondulada, conformada por lomas y medias lomas, con pendientes de destino gradiente, hacia el norte y noroeste, en dirección al Río Areco. Previo al rio, hay una franja deprimida o bañado. A fin de moderar o atenuar los efectos de ésta, se ha sistematizado gran parte del campo, mediante el trazado de curvas de nivel. La superficie del campo se distribuye en siete ambientes principales, con características propias y distintas posibilidades de aprovechamiento. a) Loma: 531 Has. Es uno de los ambientes que predominan en el campo, donde se encuentran los suelos de mejor calidad. Estos son profundos, bien drenados, de textura franca a franco limosa en su primer horizonte, que tiene una profundidad aproximada a 30 cm. Suelos Atucha 1, clasificadas con clase I-2, según su capacidad de uso. Son suelos aptos para la realización de cultivos como trigo, soja, maíz. b) Media Loma: 393has. Se desarrolla a continuación del ambiente anterior, en un nivel inferior del relieve, estando conformado por planos inclinados de distinto gradiente. Son suelos similares a los descriptos, aunque algo menos profundos. c) Hondonada: 70,5has. d) Barranca con monte natural: 78 has. Este ambiente comprende una franja mayormente estrecha, que divide los sectores más altos del campo con el bañado del Río Areco. S e) Tendido y vías de escurrimiento: 29Has. f) Bañado: 111 Has. Comprende la franja que se extiende desde el pie de la barranca hasta el margen del Río Areco. g) Bajo : 62,6 has.</p>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <p>Excelente campo agrícola ubicado en Zarate. El campo ha sido sistematizado para optimizar el uso del terreno, que se divide en siete ambientes con distintos potenciales agrícolas. Predominan las lomas, con suelos profundos y bien drenados ideales para cultivos como trigo, soja y maíz, seguidos de medias lomas, hondonadas, áreas de monte natural, tendidos y vías de escurrimiento, además de un bañado cerca del Río Areco, lo que le otorga una gran versatilidad productiva.</p>
+                {/* <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Servicios</h4>
                 <ul className='services'>
                   <li>Electricidad</li>
-                </ul>
+                </ul> */}
               </div>
               <div>
                 <Gallery images={imagesZarate} />
@@ -285,7 +284,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Victoria, Entre Ríos - 10000 ha</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Ganadero</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -298,40 +297,21 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 15.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Precio HA u$s:</strong> 1500</span>
                   <span className='block'><strong>Costas Santafesinas:</strong> 20 min en lancha rápida</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 100000000.0 HAS</span>
-                  <span className='block'><strong>Incultas:</strong> 1.500 ha</span>
-                  <span className='block'><strong>Pasto Natural:</strong> 8.500 ha</span>
+                  <span className='block'><strong>Superficie:</strong> 1000 HAS</span>
+                  <span className='block'><strong>Incultas:</strong> 1500 HAS</span>
+                  <span className='block'><strong>Pasto Natural:</strong> 8500 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <span className='block'>MEJORAS</span>
-                <ul className='services mb-5'>
-                  <li>2.500 ha endicadas por terraplenes.</li>
-                  <li>24 km de terraplenes de gran altura. 25 km de caminos internos.</li>
-                  <li>45 km de canales de drenaje. 2 estaciones de bombeo.</li>
-                  <li>4 corrales con manga, cepo y balanza electrónica.</li>
-                  <li>Casa para puestero. Galpón en construcción (50x25 m).</li>
-                  <li>Planta de silo con 4 silos de 120 tn y noria de 80 tn/hora, con descarga al barco.</li>
-                  <li>Alteo de 2 ha levantado 5 m en altura para refugio (100.000 m3 de tierra). Su cota supera cualquier crecida cualquier crecida y permite tener un lugar seguro en caso de emergencia hidrológica para situar los animales y proceder su evacuación. Arriba de este alteo se construyó el galpón y los silos.</li>
-                  <li>25.000 horas movimiento de suelo.</li>
-                  <li>Dársena para el barco.</li>
-                  <li>Alcantarilla de hormigón de 100 cm de diámetro.</li>
-                  <li>200 ha niveladas con pendiente de 5% para su mejor drenaje.</li>
-                  <li>Pista de aterrizaje.</li>
-                  <li>Telefonía celular con cobertura en todo el campo.</li>
-                </ul>
-                <span className='block'>APTITUD</span>
-                <p>Muy buena isla para, engorde, cría y recría por sus pasturas permanentes, pastosas, abundantes y de gran altura.
-                  Posee habilitación de SENASA para exportación de carne del mismo ganado.
-                  Su perímetro se compone con ríos de buen calado (Los Laureles). Hasta en épocas de sequías su calado mínimo con el río bajo es de 10 m. Siempre entra y sale el barco de hacienda o cereal.</p>
+                <p>Este excepcional campo de 2.500 ha, con mejoras de primer nivel, cuenta con 24 km de terraplenes, 25 km de caminos internos y 45 km de canales de drenaje. Dispone de 2 estaciones de bombeo, corrales equipados con balanza electrónica, casa para puestero y galpón en construcción de 50x25 m. La planta de silo tiene capacidad de 480 tn y sistema de descarga al barco. Un alteo de 2 ha garantiza refugio seguro ante crecidas. Además, incluye una pista de aterrizaje, cobertura celular en todo el predio, y habilitación SENASA para exportación de carne. Ideal para engorde, cría y recría, con acceso por río incluso en épocas de sequía.</p>
               </div>
               <div>
                 <Gallery images={imagesVictoria} />
@@ -346,7 +326,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Nueva Esperanza 6.963 ha</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -359,7 +339,7 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 15.318.600</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Precio HA u$s:</strong> 2200</span>
                   <span className='block'><strong>Ruta provincial:</strong> 4:4 Km</span>
@@ -369,14 +349,15 @@ const Campos = () => {
                   <span className='block'><strong>Ciudad de Santiago del Estero:</strong> 240 Km</span>
                   <span className='block'><strong>Ciudad de Salta:</strong> 300 Km</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 69630000.0 HA</span>
+                  <span className='block'><strong>Superficie:</strong> 6963 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <span className='block'>MEJORAS</span>
+                <p>Este campo de 3.606 ha, ideal para agricultura y ganadería, está completamente alambrado con 7 hilos y cuenta con picadas perimetrales e internas. Incluye una casa en excelente estado con 3 habitaciones, cocina, comedor y baño. La propiedad se abastece de luz solar y dispone de un aljibe de 30.000 litros para consumo humano y un tanque de 25.000 litros apto para uso animal y fumigación. Con cultivos de soja, maíz, poroto negro y poroto mung en la campaña 2018/2019, su promedio anual de precipitaciones es de 700-800 mm, lo que lo convierte en una excelente opción para producción agrícola.</p>
+                {/* <span className='block'>MEJORAS</span>
                 <ul className='services mb-5'>
                   <li>El campo está totalmente alambrado con 7 hilos (nuevo).</li>
                   <li>Cortinas de monte natural.</li>
@@ -387,15 +368,15 @@ const Campos = () => {
                   <li>Tanque de agua apta para consumo animal y fumigar (25.000 litros)</li>
                 </ul>
                 <span className='block'>APTITUD</span>
-                  <p>El campo tiene 3.606 ha desmontadas y en agricultura. El resto es monte abierto.</p>
-                  <span>Campaña 2018/2019:</span>
-                  <ul className='services mb-5'>
-                    <li>Soja: 1391 ha.</li>
-                    <li>Maíz: 1.683 ha.</li>
-                    <li>Poroto negro: 431 ha.</li>
-                    <li>Poroto mung: 100 ha.</li>
-                  </ul>
-                  <span className='block'>PRECIPITACIÓN ANUAL PROMEDIO: 700-800 mm</span>
+                <p>El campo tiene 3.606 ha desmontadas y en agricultura. El resto es monte abierto.</p>
+                <span>Campaña 2018/2019:</span>
+                <ul className='services mb-5'>
+                  <li>Soja: 1391 ha.</li>
+                  <li>Maíz: 1.683 ha.</li>
+                  <li>Poroto negro: 431 ha.</li>
+                  <li>Poroto mung: 100 ha.</li>
+                </ul>
+                <span className='block'>PRECIPITACIÓN ANUAL PROMEDIO: 700-800 mm</span> */}
               </div>
               <div>
                 <Gallery images={imagesNuevaEsperanza} />
@@ -410,7 +391,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>El Nochero 30.000 Ha</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -423,7 +404,7 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 18.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Precio HA u$s:</strong> 600</span>
                   <span className='block'><strong>Asfalto:</strong> 16 Km</span>
@@ -431,14 +412,14 @@ const Campos = () => {
                   <span className='block'><strong>Ciudad de Santa Fé:</strong> 470 Km</span>
                   <span className='block'><strong>Ciudad Autónoma de Buenos Aires:</strong> 920 Km</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 300000000.0 HA</span>
+                  <span className='block'><strong>Superficie:</strong> 3000 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Mejoras: Los alambrados perimetrales de la Estancia se encuentran en su mayoría en estado aceptable, debiendo realizar reparaciones en algunos tramos, pero en tramos faltantes de alambrados fijos se encuentran alambrados eléctricos, también se hace la salvedad que existen también tramos de perimetrales posteados, faltando colocar hilos y varillas. La Estancia tiene una casa habitación, en buenas condiciones, y un pequeño puesto, un galpón para herramientas y maquinarias. En el extremo Suroeste se cuenta una casa para puestero. también hay corrales, manga, balanza y bañadero. A nivel de reserva de agua ha proyectado en toda su superficie una serie de represas que fueron construidas, analizando los escurrimientos naturales del agua, para que, en caso de producirse precipitaciones de importancia, se logre acumular la mayor cantidad de la misma. Es un trabajo de gran importancia y de costos, que le permiten al establecimiento en condiciones climáticas normales, acumular agua para los momentos de faltante. La estancia cuenta con bebederos y molinos. Si bien no se hicieron estudio para localizar en el subsuelo, todos los campos linderos a “Los Algodonales” cuentan con agua subterránea de buena calidad. Aptitud: Cría de vacunos y agricultura en menor escala. Precipitación: 700-1000 mm anuales. Su mayor superficie está dedicada a la explotación ganadera (cría de vacunos) sobre tierras con vegetación originariamente cubierta de bosques donde ya se ha explotado la madera más valiosa (quebracho) para la producción de tanino, postes de alambrados y durmientes de ferrocarril. Su mitad norte tiene una importante superficie dedicada al cultivo de algodón. En parte se cultiva maíz, sorgo granífero y girasol. Superficie de monte: 8.000Has (predomina el algarrobo apto para silvicultura) Aptitud Ganadería: 1/3Has (1 animal cada 3Has) – Se podría llegar a 1/1,5Has con siembra de gramíneas subtropicales (Grama Rhodes y Gatton Panic) y leguminosas (Alfalfa y Melilotus) Aptitud Agrícola: Girasol: 2,000-3,000Kg Sorgo: 3,500-4,000Kg Algodón: 2,500-3,000Kg Maíz: 2,500-3,000Kg Superficie Agrícola: Hasta 15.000Has. Superficie Ganadera: Hasta 30.000Has.</p>
+                <p>Esta estancia de gran extensión cuenta con alambrados perimetrales en su mayoría en estado aceptable, complementados por tramos de alambrado eléctrico y postes listos para finalizar el cerco. Dispone de una casa principal en buenas condiciones, un pequeño puesto, galpón de herramientas y maquinarias, además de una casa para puestero en el suroeste. Incluye corrales, manga, balanza, bañadero, bebederos y molinos, con un eficiente sistema de represas para acumular agua en épocas de lluvias importantes. Con aptitud ganadera y agrícola, la estancia cuenta con 8.000 ha de monte, ideal para silvicultura, y áreas para cultivo de algodón, maíz, sorgo y girasol. Su capacidad ganadera actual es de 1 animal cada 3 ha, con potencial de mejora. La precipitación anual es de 700-1000 mm, ideal para la cría de vacunos y cultivos en menor escala.</p>
               </div>
               <div>
                 <Gallery images={imagesElNochero} />
@@ -453,7 +434,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Fortin El Patria, Dupuy, San Luis - 7.611 ha</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -466,7 +447,7 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 14.841.450</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Precio HA u$s:</strong> 1950</span>
                   <span className='block'><strong>Sobre ruta:</strong> 12 y 27</span>
@@ -476,17 +457,17 @@ const Campos = () => {
                   <span className='block'><strong>Rosario:</strong> 600 km</span>
                   <span className='block'><strong>Buenos Aires:</strong> 720 km</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 76110000.0 HA</span>
-                  <span className='block'><strong>Agrícolas:</strong> 3.500 ha</span>
-                  <span className='block'><strong>Ganaderas:</strong> 3.300 ha</span>
-                  <span className='block'><strong>Monte Alto:</strong> 800 ha</span>
+                  <span className='block'><strong>Superficie:</strong> 7611 HAS</span>
+                  <span className='block'><strong>Agrícolas:</strong> 3500 HAS</span>
+                  <span className='block'><strong>Ganaderas:</strong> 3300 HAS</span>
+                  <span className='block'><strong>Monte Alto:</strong> 800 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <span className='block'>MEJORAS</span>
+                {/* <span className='block'>MEJORAS</span>
                 <ul className='services mb-5'>
                   <li>Casco con casa principal de 450 m2</li>
                   <li>Casa de encargado, casa de peones y galpones</li>
@@ -497,8 +478,8 @@ const Campos = () => {
                   <li>Instalaciones para feedlot</li>
                   <li>2 mangas (con balanza para 3000 kg)</li>
                 </ul>
-                <span className='block uppercase'>Aptitud:</span>
-                <p>Campo agrícola-ganadero que se dedica a la recría, cuenta con 6.000 cabezas entre novillos y vaquillonas y tiene 1500 vientres. La superficie agrícola es apta para girasol, maíz, sorgo, centeno y muy buenas alfalfas y la superfice ganadera es sembrable con llorón, digitaria, panicum, etc, en las lomas.</p>
+                <span className='block uppercase'>Aptitud:</span> */}
+                <p>Este campo agrícola-ganadero, con una extensión dividida en 27 potreros, cuenta con una casa principal de 450 m², casa para encargado, vivienda para peones y amplios galpones. Equipado con servicios como teléfono, Internet y electricidad de alta tensión con transformador de 24 Kwa, ofrece excelentes condiciones para la producción. Posee 15 molinos con tanques y bebederos, agua dulce apta para consumo humano y la posibilidad de riego. El campo alberga instalaciones para feedlot y 2 mangas con balanza para 3000 kg. Con capacidad para 6.000 cabezas de ganado y 1.500 vientres, es ideal para cultivos de girasol, maíz, sorgo, centeno, y pasturas para ganadería como llorón y digitaria.</p>
               </div>
               <div>
                 <Gallery images={imagesFortinElPatria} />
@@ -514,7 +495,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Lujan, Buenos Aires - 877 ha</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -527,63 +508,22 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 25.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Precio HA u$s:</strong> 28506.27</span>
                   <span className='block'><strong>Basílica de Luján: </strong> 8 km</span>
                   <span className='block'><strong>Buenos Aires:</strong> 75 km</span>
                   <span className='block'><strong>Sobre Rutas Nacionales n°:</strong> 7 y 5</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 8770000.0 HA</span>
+                  <span className='block'><strong>Superficie:</strong> 877 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <span className='block'>MEJORAS</span>
-                <p>Casa principal de 1943, diseño del arquitecto holandés Van Brant, se asemeja a un castillo anglo normando. Está ubicada sobre una pequeña colina, que privilegia la vista de los jardines de los alrededores y a su vez ofrece una esplendida visión de la casa observada desde el campo. La construcción se realizó con los mejores materiales disponibles, para ser elegante, pero no pretenciosa, y ser capaz de resistir el paso del tiempo. Todos los pisos, techos, escaleras y ornamentos fueron hechos de madera dura y están en condiciones excelentes.<br />
-                El sótano es muy luminoso y bien ventilado debido a que en el diseño de la casa se incluyó &quot;un cavado&quot; que rodea toda la parte trasera de este nivel. En él se encuentran los vestuarios con cómodas duchas, preparados para cubrir todas las necesidades de los invitados que hayan realizado actividades en el campo.
-                La planta baja destinada a las diversas actividades sociales cuenta con un hall de entrada y recepción y tres salones comunicados entre sí que miran a la gran terraza (329 m2) desde la cual se puede acceder al parque de ciervos, ideal para reuniones y disfrutar de las increíbles puestas de sol sobre los campos y bosques.
-                La planta alta cuenta con 15 habitaciones, dentro de las cuales se encuentran la suite principal (120 m2) que está destinada a la novia y consiste en un dormitorio de 40m2 con chimenea, un cuarto de baño y una antecámara; y la habitación del novio con cuarto de baño privado.
-                <br />
-                Caballeriza:
-                <br />
-                Es un ámbito especial para la realización de eventos diferentes en un lugar mágico. Recibe a los invitados el gran patio de grava de 20m x90m donde se destaca la espectacular fachada cuya puerta de ingreso al &quot;Salón de los Establos&quot; es una gran herradura. El otro salón es el de los carruajes donde pueden realizarse cenas hasta 150 personas.
-                <br />
-                Capilla:
-                <br />
-                Fue construida alrededor de añosas casuarinas, araucarias y arbustos, a menos de 100 metros de la entrada de la Casa Principal. Regalo de Jules a su querida esposa en el aniversario de sus 25 años de casados. Diseñada en estilo Art Noveau, se destacan sus extraordinarios vitraux, realizados por el renombrado arquitecto, artista y escritor eslovaco, Ronsky. Tiene capacidad para 50 personas y cumple con las autorizaciones necesarias para celebrar ceremonias religiosas.
-                <br />
-                Parques:
-                <br />
-                Cuenta con 14 hectáreas de jardines diseñados estratégicamente alrededor de la Casa Principal, que fueron realizados bajo la supervisión de Jules Steverlynck, y su esposa, Marie Alice, que incorporaron a lo largo de los años, plantas y árboles traídos de diferentes partes del mundo.
-                <br />
-                Los jardines son atravesados por 2 kilómetros de serpenteantes senderos de grava, donde se encuentran a lo largo del día, docenas de pavos reales, faisanes y gallinas de Guinea.
-                <br />
-                La Gran Casa marca el punto de encuentro de dos tipos distintos de parque.
-                <br />
-                El del norte de una exquisita densidad forestal y el del sur sobre una inclinada pradera natural, habitada por ciervos y delimitada en la línea del horizonte por frondosos bosques de más de 300 variedades de árboles.
-                <br />
-                Otro rasgo único de los jardines son sus &quot;glorietas&quot;. Éstos son espacios circulares, abiertos y ligeramente elevados, con estructuras de bóveda metálicas cubiertas por glicinas y otras variedades de plantas en flor. Son puntos ideales para asados ya que proporcionan una sombra naturalmente fresca.
-                <br />
-                A sólo unos metros de la Casa Principal y escondida por un pequeño bosque denso, se encuentra la pista de tenis de polvo de ladrillo.
-                <br />
-                Uno de los lugares preferidos a la hora de recepcionar a los invitados es el prado sur de la casa Principal, desde donde puede contemplarse la puesta de sol en la inmensidad del campo, momento que es acompañado del murmullo del agua que fluye por las piedras del tajamar, convirtiéndose en fuente de alimentación de la reserva de aves, entre los que se encuentran pavos, gansos y flamencos, desembocando en una de las lagunas de la Estancia.
-                <br />
-                Pileta de natación.
-                <br />
-                Bosques:
-                <br />
-                Las aproximadamente 400 hectáreas de bosques que tiene Santa Elena, ya tienen casi 80 años y son una parte inestimable de la herencia de Jules. Como un amante fiel de la naturaleza, él personalmente supervisó todos los aspectos de la perquizacion, que armoniosamente combinó entre más de 300 especies locales y extranjeras de árboles, plantas industriales y escénicas y animales que se desarrollaron en espacios naturales. Más tarde se creó un sistema de siete lagunas interconectadas. Estas lagunas son uno de los toques de luz de Santa Elena y otorgan un paisaje impresionante, sobre todo en otoño cuando los colores están en su pico.
-                <br />
-                El Río Luján, silencioso, tranquilo y que serpentea rápidamente, es realmente una de las piedras angulares de Villa Flandria y la historia de Santa Elena de vida y progreso. Es una fuente de entretenimiento, ocio, belleza y la base del ecosistema circundante.
-                <br />
-                Esta frontera del Este se estira más de 5 kilómetros, que comienzan en el sitio de la fábrica y alcanzan al área de sistema de laguna. El río es de navegación y tiene tendencia para todas las clases de actividades acuáticas recreativas</p>
-                <span className='block uppercase'>Aptitud:</span>
-                <p>Santa Elena es una Estancia única, con más de 400 variedades de árboles y seis lagunas diseñadas en la reserva forestal, conformando un ecosistema de incalculable belleza a través de sus campos, jardines y prados. El diseño funcional de Santa Elena la hace propicia para todo tipo de usos y actividades, desde eventos sociales, eventos empresariales, convenciones o reuniones de trabajo. Este carácter polifacético del uso es principalmente debido a la distribución inteligente de espacios funcionales.
-                <br />
-                La estancia posee áreas destinadas a la agricultura y a la ganadería vacuna y ovina.</p>
+                {/* <span className='block'>MEJORAS</span> */}
+                <p>La Estancia Santa Elena, diseñada en 1943 por el arquitecto holandés Van Brant, se asemeja a un castillo anglo-normando y está ubicada sobre una colina, brindando vistas espectaculares de los jardines y el paisaje circundante. La casa principal, construida con los mejores materiales, cuenta con 15 habitaciones y amplias áreas sociales que se conectan a una terraza de 329 m² con vistas al parque de ciervos. Además, cuenta con caballerizas, capilla de estilo Art Nouveau con vitraux únicos, y jardines de 14 hectáreas con senderos, glorietas, y fauna exótica. Las 400 ha de bosque, con más de 300 especies de árboles, se complementan con un sistema de siete lagunas interconectadas. El Río Luján serpentea por la propiedad, ofreciendo oportunidades recreativas. La estancia es ideal para eventos sociales y empresariales, y cuenta con áreas para agricultura y ganadería.</p>
               </div>
               <div>
                 <Gallery images={imagesLujan} />
@@ -614,7 +554,7 @@ const Campos = () => {
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 16000000.0 HA</span>
+                  <span className='block'><strong>Superficie:</strong> 1600 HAS</span>
                 </div>
               </div>
               <div>
@@ -630,7 +570,7 @@ const Campos = () => {
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Excelente Campo mixto de 1400 has sobre Panamericana. km 120</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto de 1400 HAS</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
@@ -643,7 +583,7 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 20.600.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
+                {/* <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
                   <span className='block'><strong>Ambientes:</strong> 6</span>
                   <span className='block'><strong>Dormitorios:</strong> 5</span>
@@ -651,47 +591,14 @@ const Campos = () => {
                   <span className='block'><strong>Piso:</strong> 1</span>
                   <span className='block'><strong>Antigüedad:</strong> 20 años</span>
                 </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 1377.00 HA</span>
+                  <span className='block'><strong>Superficie:</strong> 1377 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Muy buen campo Mixto de 1370 hectáreas a 120 km de Ciudad Autónoma de Buenos Aires. Aproximadamente es un 50% agrícola y un 50% ganadero. Tiene un Casco principal de aprox 300 m2, con 3 dormitorios, los 3 en suite. Living comedor, cocina y gran galeria. Casa de Huespedes con 2 dormitorios en suite. Gran Piscina de 14 x 7 Casa de encargados. Galpon Cuadro de ambiente: A 1 Buena a muy buena Agricultura – ganadería Ambiente 1 productividad Suelos aptos para cultivos y ganadería . Suelen requerir prácticas de manejo conservacionista sobre todo en sectores con pendientes significativas . para evitar riesgos de erosión . Ocupa posiciones de lomas suavemente disectadas lomadas altas y pié de lomas . Aptitud : cultivos ( soja , trigo, girasol ), ganadería sobre pasturas artificiales . A 2 Buena productividad Agricultura – ganadería Ambiente 2 Suelos aptos para cultivos y ganadería . Limitaciones : dado sus posiciones de pendientes requiere de prácticas de manejo y conservación a modo de disminuir susceptibilidad a sufrir procesos erosivos. Ocupa sectores de pendientes moderadas . Aptitud : cultivos ( soja ,trigo, girasol ), ganadería sobre pasturas artificiales o naturales mejoradas . A 3 Regular productividad Ganadería – agricultura con limitaciones Ambiente 3 Suelos aptos para destinos ganaderos y agricultura con limitaciones . Limitaciones : susceptibilidad a erosión en sectores de pendientes, y drenaje imperfecto con acumulación de humedad y alcalinidad en sus posiciones de pie de pendiente y bajos . Corresponde a sectores de pendientes suaves, con sectores erosionados y planos bajos con áreas de derrames de sectores bajos , y arroyos . Aptitud : Ganadería sobre pasturas naturales o mejoradas. A 4 Baja productividad Ganadería - forestación - apoyo ganadero Ambiente 1 Suelos con destino ganadero . Limitaciones : Excesos de humedad , anegamientos y alcalinidad Ocupa sectores de planos aluviales , con suelos no diferenciados , anegables en forma periódica . Aptitud : Apoyo ganadero , forestación con especies adaptadas a condiciones de anegamientos periódicos y alcalinidad .</p>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Servicios</h4>
-                  <ul className='services mb-5'>
-                    <li>Electricidad</li>
-                    <li>Pavimento</li>
-                    <li>Agua Potable</li>
-                  </ul>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Ambientes</h4>
-                  <ul className='services mb-5'>
-                    <li>Cocina</li>
-                    <li>Comedor diario</li>
-                    <li>Suite</li>
-                    <li>Living Comedor</li>
-                  </ul>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Adicionales</h4>
-                  <ul className='services mb-5'>
-                    <li>Parrilla</li>
-                    <li>Ruta</li>
-                    <li>Pileta</li>
-                    <li>Frente a carretera</li>
-                    <li>Polo</li>
-                    <li>Campo productivo</li>
-                    <li>Arroyo interior</li>
-                    <li>Apto Ganaderia</li>
-                  </ul>
-                </div>
+                <p>Este excelente campo mixto de 1.370 hectáreas, ubicado a solo 120 km de Ciudad Autónoma de Buenos Aires, combina una óptima distribución entre actividades agrícolas y ganaderas. Con suelos aptos para cultivos como soja, trigo y girasol, y ganadería sobre pasturas artificiales, ofrece gran versatilidad productiva. La propiedad cuenta con un casco principal de 300 m², que incluye 3 dormitorios en suite, un amplio living comedor, cocina y galería, además de una casa de huéspedes con 2 suites, una gran piscina de 14 x 7 m, casa para encargados y un galpón. Dispone de electricidad, agua potable, pavimento y acceso directo a la carretera. Con ambientes que incluyen cocina, comedor diario, y parrilla, este campo es ideal tanto para la producción como para disfrutar de la naturaleza. Además, posee áreas ganaderas con opciones de forestación y apoyo ganadero.</p>
               </div>
               <div>
                 <Gallery images={imagesCampoMixto} />
