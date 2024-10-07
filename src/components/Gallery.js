@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 const Gallery = ({images}) => {
     const onInit = () => {
-        console.log('lightGallery has been initialized');
+        // console.log('lightGallery has been initialized');
     };
 
     return (

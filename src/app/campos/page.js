@@ -273,7 +273,7 @@ const Campos = () => {
               </div>
               <div>
                 <Gallery images={imagesZarate} />
-                <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/XDdpHSRwC4A?si=1ZJXWRvVROrgB6yk" title="Zarate video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {/* <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/XDdpHSRwC4A?si=1ZJXWRvVROrgB6yk" title="Zarate video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
               </div>
             </div>
           </div>
@@ -502,7 +502,7 @@ const Campos = () => {
               </div>
               <div>
                 <Gallery images={imagesFortinElPatria} />
-                <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/JqV9X0H6TCY?si=d2eW8cJisKReeOUR" title="El Fortin Patria video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {/* <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/JqV9X0H6TCY?si=d2eW8cJisKReeOUR" title="El Fortin Patria video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
               </div>
             </div>
           </div>
@@ -587,7 +587,7 @@ const Campos = () => {
               </div>
               <div>
                 <Gallery images={imagesLujan} />
-                <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/WMXQkLBcbh4?si=UEkzKp24VIP0t7I_" title="El Fortin Patria video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {/* <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/WMXQkLBcbh4?si=UEkzKp24VIP0t7I_" title="El Fortin Patria video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
               </div>
             </div>
           </div>
