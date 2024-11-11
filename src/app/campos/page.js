@@ -19,20 +19,6 @@ const Campos = () => {
     { src: '/images/100agricola/100agricola_05.jpg', thumb: '/images/100agricola/100agricola_05.jpg' }
   ];
 
-  const imagesZarate = [
-    { src: '/images/zarate/zarate_01.jpg', thumb: '/images/zarate/zarate_01.jpg' },
-    { src: '/images/zarate/zarate_02.jpg', thumb: '/images/zarate/zarate_02.jpg' },
-    { src: '/images/zarate/zarate_03.jpg', thumb: '/images/zarate/zarate_03.jpg' },
-    { src: '/images/zarate/zarate_04.jpg', thumb: '/images/zarate/zarate_04.jpg' },
-    { src: '/images/zarate/zarate_05.jpg', thumb: '/images/zarate/zarate_05.jpg' },
-    { src: '/images/zarate/zarate_06.jpg', thumb: '/images/zarate/zarate_06.jpg' },
-    { src: '/images/zarate/zarate_07.jpg', thumb: '/images/zarate/zarate_07.jpg' },
-    { src: '/images/zarate/zarate_08.jpg', thumb: '/images/zarate/zarate_08.jpg' },
-    { src: '/images/zarate/zarate_10.jpg', thumb: '/images/zarate/zarate_10.jpg' },
-    { src: '/images/zarate/zarate_11.jpg', thumb: '/images/zarate/zarate_11.jpg' },
-    { src: '/images/zarate/zarate_12.jpg', thumb: '/images/zarate/zarate_12.jpg' }
-  ];
-
   const imagesVictoria = [
     { src: '/images/victoria/victoria_01.jpg', thumb: '/images/victoria/victoria_01.jpg' },
     { src: '/images/victoria/victoria_02.jpg', thumb: '/images/victoria/victoria_02.jpg' },
@@ -132,27 +118,17 @@ const Campos = () => {
     { src: '/images/fortin_el_patria/fortin_el_patria_30.jpg', thumb: '/images/fortin_el_patria/fortin_el_patria_30.jpg' }
   ];
 
-  const imagesLujan = [
-    { src: '/images/lujan/lujan_01.jpg', thumb: '/images/lujan/lujan_01.jpg' },
-    { src: '/images/lujan/lujan_02.jpg', thumb: '/images/lujan/lujan_02.jpg' },
-    { src: '/images/lujan/lujan_03.jpg', thumb: '/images/lujan/lujan_03.jpg' },
-    { src: '/images/lujan/lujan_04.jpg', thumb: '/images/lujan/lujan_04.jpg' },
-    { src: '/images/lujan/lujan_05.jpg', thumb: '/images/lujan/lujan_05.jpg' },
-    { src: '/images/lujan/lujan_06.jpg', thumb: '/images/lujan/lujan_06.jpg' },
-    { src: '/images/lujan/lujan_07.jpg', thumb: '/images/lujan/lujan_07.jpg' },
-    { src: '/images/lujan/lujan_08.jpg', thumb: '/images/lujan/lujan_08.jpg' },
-    { src: '/images/lujan/lujan_09.jpg', thumb: '/images/lujan/lujan_09.jpg' },
-    { src: '/images/lujan/lujan_10.jpg', thumb: '/images/lujan/lujan_10.jpg' },
-    { src: '/images/lujan/lujan_11.jpg', thumb: '/images/lujan/lujan_11.jpg' },
-    { src: '/images/lujan/lujan_12.jpg', thumb: '/images/lujan/lujan_12.jpg' },
-    { src: '/images/lujan/lujan_13.jpg', thumb: '/images/lujan/lujan_13.jpg' },
-    { src: '/images/lujan/lujan_14.jpg', thumb: '/images/lujan/lujan_14.jpg' },
-    { src: '/images/lujan/lujan_15.jpg', thumb: '/images/lujan/lujan_15.jpg' },
-    { src: '/images/lujan/lujan_16.jpg', thumb: '/images/lujan/lujan_16.jpg' },
-    { src: '/images/lujan/lujan_17.jpg', thumb: '/images/lujan/lujan_17.jpg' },
-    { src: '/images/lujan/lujan_18.jpg', thumb: '/images/lujan/lujan_18.jpg' },
-    { src: '/images/lujan/lujan_19.jpg', thumb: '/images/lujan/lujan_19.jpg' },
-    { src: '/images/lujan/lujan_20.jpg', thumb: '/images/lujan/lujan_20.jpg' }
+  const imagesWheelwright = [
+    { src: '/images/wheelwright/wheelwright_01.jpg', thumb: '/images/wheelwright/wheelwright_01.jpg' },
+    { src: '/images/wheelwright/wheelwright_02.jpg', thumb: '/images/wheelwright/wheelwright_02.jpg' },
+    { src: '/images/wheelwright/wheelwright_03.jpg', thumb: '/images/wheelwright/wheelwright_03.jpg' },
+    { src: '/images/wheelwright/wheelwright_04.jpg', thumb: '/images/wheelwright/wheelwright_04.jpg' },
+    { src: '/images/wheelwright/wheelwright_05.jpg', thumb: '/images/wheelwright/wheelwright_05.jpg' },
+    { src: '/images/wheelwright/wheelwright_06.jpg', thumb: '/images/wheelwright/wheelwright_06.jpg' },
+    { src: '/images/wheelwright/wheelwright_07.jpg', thumb: '/images/wheelwright/wheelwright_07.jpg' },
+    { src: '/images/wheelwright/wheelwright_08.jpg', thumb: '/images/wheelwright/wheelwright_08.jpg' },
+    { src: '/images/wheelwright/wheelwright_09.jpg', thumb: '/images/wheelwright/wheelwright_09.jpg' },
+    { src: '/images/wheelwright/wheelwright_10.jpg', thumb: '/images/wheelwright/wheelwright_10.jpg' }
   ];
 
   const imagesRojas = [
@@ -163,27 +139,23 @@ const Campos = () => {
     { src: '/images/rojas/rojas_05.jpg', thumb: '/images/rojas/rojas_05.jpg' }
   ];
 
-  const imagesCampoMixto = [
-    { src: '/images/campo_mixto/campo_mixto_01.jpg', thumb: '/images/campo_mixto/campo_mixto_01.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_02.jpg', thumb: '/images/campo_mixto/campo_mixto_02.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_03.jpg', thumb: '/images/campo_mixto/campo_mixto_03.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_04.jpg', thumb: '/images/campo_mixto/campo_mixto_04.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_05.jpg', thumb: '/images/campo_mixto/campo_mixto_05.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_06.jpg', thumb: '/images/campo_mixto/campo_mixto_06.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_07.jpg', thumb: '/images/campo_mixto/campo_mixto_07.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_08.jpg', thumb: '/images/campo_mixto/campo_mixto_08.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_09.jpg', thumb: '/images/campo_mixto/campo_mixto_09.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_10.jpg', thumb: '/images/campo_mixto/campo_mixto_10.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_11.jpg', thumb: '/images/campo_mixto/campo_mixto_11.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_12.jpg', thumb: '/images/campo_mixto/campo_mixto_12.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_13.jpg', thumb: '/images/campo_mixto/campo_mixto_13.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_14.jpg', thumb: '/images/campo_mixto/campo_mixto_14.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_15.jpg', thumb: '/images/campo_mixto/campo_mixto_15.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_16.jpg', thumb: '/images/campo_mixto/campo_mixto_16.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_17.jpg', thumb: '/images/campo_mixto/campo_mixto_17.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_18.jpg', thumb: '/images/campo_mixto/campo_mixto_18.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_19.jpg', thumb: '/images/campo_mixto/campo_mixto_19.jpg' },
-    { src: '/images/campo_mixto/campo_mixto_20.jpg', thumb: '/images/campo_mixto/campo_mixto_20.jpg' }
+  const imagesAccesoElPuente = [
+    { src: '/images/acceso_el_puente/acceso_el_puente_01.jpg', thumb: '/images/acceso_el_puente/acceso_el_puente_01.jpg' },
+    { src: '/images/acceso_el_puente/acceso_el_puente_02.jpg', thumb: '/images/acceso_el_puente/acceso_el_puente_02.jpg' },
+    { src: '/images/acceso_el_puente/acceso_el_puente_03.jpg', thumb: '/images/acceso_el_puente/acceso_el_puente_03.jpg' }
+  ];
+
+  const imagesSantaLuciaArrecifes = [
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_01.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_01.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_02.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_02.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_03.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_03.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_04.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_04.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_05.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_05.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_06.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_06.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_07.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_07.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_08.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_08.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_09.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_09.jpg' },
+    { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_10.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_10.jpg' }
   ];
   
   return (
@@ -222,8 +194,8 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Condición:</strong> Excelente</span>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y Medidas</h4>
+                  {/* <span className='block'><strong>Condición:</strong> Excelente</span> */}
                   {/* <span className='block'><strong>Antigüedad:</strong> A estrenar</span> */}
                   <span><strong>Superficie:</strong> 50 HAS</span>
                 </div>
@@ -238,46 +210,6 @@ const Campos = () => {
           </div>
         </div>
         {/* Campo 100% Agrícola: End */}
-
-        {/* Zarate: Begin */}
-        <div className='field' id='zarate'>
-          <div className='container'>
-            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
-              <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo 100% agrícola</h2>
-                <p className='flex items-center mb-2'>
-                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
-                  </svg>
-                  Lima | Zarate | G.B.A. Zona Norte
-                </p>
-                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.0447565,-59.1961093"} target='_blank'>Ver en Google Maps</Link>
-                <div className='flex items-center mt-5'>
-                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 15.000.000</span>
-                </div>               
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span><strong>Superficie:</strong> 1470 HAS</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Excelente campo agrícola ubicado en Zarate. El campo ha sido sistematizado para optimizar el uso del terreno, que se divide en siete ambientes con distintos potenciales agrícolas. Predominan las lomas, con suelos profundos y bien drenados ideales para cultivos como trigo, soja y maíz, seguidos de medias lomas, hondonadas, áreas de monte natural, tendidos y vías de escurrimiento, además de un bañado cerca del Río Areco, lo que le otorga una gran versatilidad productiva.</p>
-                {/* <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <h4 className='text-base font-bold mb-2 uppercase underline'>Servicios</h4>
-                <ul className='services'>
-                  <li>Electricidad</li>
-                </ul> */}
-              </div>
-              <div>
-                <Gallery images={imagesZarate} />
-                {/* <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/XDdpHSRwC4A?si=1ZJXWRvVROrgB6yk" title="Zarate video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Zarate: End */}
 
         {/* Victoria, Entre Rios: Begin */}
         <div className='field' id='victoria'>
@@ -490,50 +422,6 @@ const Campos = () => {
         </div>
         {/* Fortin El Patria: End */}
 
-        {/* Lujan: Begin */}
-        <div className='field' id='lujan'>
-          <div className='container'>
-            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
-              <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto</h2>
-                <p className='flex items-center mb-2'>
-                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
-                  </svg>
-                  Lujan | G.B.A. Zona Oeste | Argentina
-                </p>
-                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.5798993,-59.1858183"} target='_blank'>Ver en Google Maps</Link>
-                <div className='flex items-center mt-5'>
-                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 25.000.000</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                {/* <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Precio HA u$s:</strong> 28506.27</span>
-                  <span className='block'><strong>Basílica de Luján: </strong> 8 km</span>
-                  <span className='block'><strong>Buenos Aires:</strong> 75 km</span>
-                  <span className='block'><strong>Sobre Rutas Nacionales n°:</strong> 7 y 5</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 877 HAS</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                {/* <span className='block'>MEJORAS</span> */}
-                <p>La Estancia Santa Elena, diseñada en 1943 por el arquitecto holandés Van Brant, se asemeja a un castillo anglo-normando y está ubicada sobre una colina, brindando vistas espectaculares de los jardines y el paisaje circundante. La casa principal, construida con los mejores materiales, cuenta con 15 habitaciones y amplias áreas sociales que se conectan a una terraza de 329 m² con vistas al parque de ciervos. Además, cuenta con caballerizas, capilla de estilo Art Nouveau con vitraux únicos, y jardines de 14 hectáreas con senderos, glorietas, y fauna exótica. Las 400 ha de bosque, con más de 300 especies de árboles, se complementan con un sistema de siete lagunas interconectadas. El Río Luján serpentea por la propiedad, ofreciendo oportunidades recreativas. La estancia es ideal para eventos sociales y empresariales, y cuenta con áreas para agricultura y ganadería.</p>
-              </div>
-              <div>
-                <Gallery images={imagesLujan} />
-                {/* <iframe className='mt-12 border-4 border-blueMain' width="100%" height="400" src="https://www.youtube.com/embed/WMXQkLBcbh4?si=UEkzKp24VIP0t7I_" title="El Fortin Patria video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Lujan: End */}
-
         {/* Rojas: Begin */}
         <div className='field' id='rojas'>
           <div className='container'>
@@ -565,48 +453,116 @@ const Campos = () => {
         </div>
         {/* Rojas: End */}
 
-        {/* Campo Mixto: Begin */}
-        <div className='field' id='campo-mixto'>
+
+        {/* Wheelwright: Begin */}
+        <div className='field' id='wheelwright'>
           <div className='container'>
             <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
               <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Mixto de 1400 HAS</h2>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Wheelwright</h2>
                 <p className='flex items-center mb-2'>
                   <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
                   </svg>
-                  Baradero | Interior Buenos Aires | Argentina
+                  Wheelwright | General Lopez | Santa Fe
                 </p>
-                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.812014,-59.50464"} target='_blank'>Ver en Google Maps</Link>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.9252588362,-61.3315492387"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 20.600.000</span>
+                  <span className='text-2xl font-bold'>USD 3.500.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                {/* <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Ambientes:</strong> 6</span>
-                  <span className='block'><strong>Dormitorios:</strong> 5</span>
-                  <span className='block'><strong>Baños:</strong> 3</span>
-                  <span className='block'><strong>Piso:</strong> 1</span>
-                  <span className='block'><strong>Antigüedad:</strong> 20 años</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 1377 HAS</span>
+                  <span className='block'><strong>Superficie:</strong> 511 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Este excelente campo mixto de 1.370 hectáreas, ubicado a solo 120 km de Ciudad Autónoma de Buenos Aires, combina una óptima distribución entre actividades agrícolas y ganaderas. Con suelos aptos para cultivos como soja, trigo y girasol, y ganadería sobre pasturas artificiales, ofrece gran versatilidad productiva. La propiedad cuenta con un casco principal de 300 m², que incluye 3 dormitorios en suite, un amplio living comedor, cocina y galería, además de una casa de huéspedes con 2 suites, una gran piscina de 14 x 7 m, casa para encargados y un galpón. Dispone de electricidad, agua potable, pavimento y acceso directo a la carretera. Con ambientes que incluyen cocina, comedor diario, y parrilla, este campo es ideal tanto para la producción como para disfrutar de la naturaleza. Además, posee áreas ganaderas con opciones de forestación y apoyo ganadero.</p>
+                <p>Casa de encargado de 2 habitaciones, baño y cocina. 1 galpón. Luz eléctrica. Alambrados perimetrales e internos en buen estado. 2 molinos con aguadas. Buena calidad de agua. APTITUD: El campo posee 150 hectáreas agrícolas, 275 ganaderas y 77 de lagunas.</p>
               </div>
               <div>
-                <Gallery images={imagesCampoMixto} />
+                <Gallery images={imagesWheelwright} />
               </div>
             </div>
           </div>
         </div>
-        {/* Campo Mixto: End */}
+        {/* Wheelwright: End */}
+
+        {/* Acceso el puente desde ruta 9: Begin */}
+        <div className='field' id='acceso-el-puente'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Acceso el puente desde ruta 9</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  El Paraiso | Ramallo | Interior Buenos Aires
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.6115787526,-59.9719534777"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 420.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 80 HAS</span>
+                  <span className='block'><strong>Superficie cubierta:</strong> 56.0 m2</span>
+                  <span className='block'><strong>Total construido:</strong> 56.0 m2</span>
+                  <span className='block'><strong>Fondo:</strong> 895.1 m</span>
+                  <span className='block'><strong>Frente:</strong> 893.71 m</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Ofrecemos en oportunidad para la Venta un buen Campo agrícola ganadero a tan sólo 2.500 metros metros de la autopista nacional numero 9, que conecta la Ciudad de Rosario con Capital Federal. Campo regular de 80 ha, con unos 900 metros de frente por 900 metros de fondo.</p>
+                <p>Cuenta con una sola parcela de 799.960 metros cuadrados, buen campo con aptitud agrícola ganadera, unas 50 hectáreas de ganadería y unas 30 hectáreas de agricultura. Cuenta con dos taperas desperdiciando como máximo unas 2 hectáreas del campo. Campo regular, cuadrado, de unos 900 metros lineales de frente por unos 900 metros lineales de fondo.</p>
+                <p>A tan sólo 2.500 metros lineales hacía el lado del Rio de la ruta nacional numero 9, ingresando por el camino que está entre medio del puente El Paraiso de Ramallo y puente Gobernador Castro de la Ciudad de San Pedro, Buenos Aires. Buenos accesos con lluvia. </p>
+                <p>Importante: Las medidas, superficies y gastos expuestos en éste sitio son aproximados y están sujetas a cambios por parte de Fauro Propiedades, responsable de la sucursal zonal Emilio Fauro, Matricula expedida por C.M.C.P.S.N. Tomo 2, Folio 252, Colegiado 1047, la que declaro se encuentra plenamente vigente.</p>
+                <p>La venta de este inmueble está sujeta a la tramitación del Código de Transferencia de Inmuebles (COTI), por parte del propietario.</p>
+              </div>
+              <div>
+                <Gallery images={imagesAccesoElPuente} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Acceso el puente desde ruta 9: End */}
+
+        {/* Santa Lucia / Arrecifes: Begin */}
+        <div className='field' id='santa-lucia-arrecifes'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Santa Lucia / Arrecifes</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  San Pedro | San Pedro | Interior Buenos Aires
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-33.9361355207,-59.8854171995"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 160.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 17.70 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Campo agrícola ubicado a 4.000 metros de la ruta 191, entre partido de Arrecifes y Santa Lucia. Cuenta con 17,7 Hectáreas.</p>
+              </div>
+              <div>
+                <Gallery images={imagesSantaLuciaArrecifes} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Santa Lucia / Arrecifes: End */}
 
       </section>
 
