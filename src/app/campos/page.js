@@ -157,6 +157,59 @@ const Campos = () => {
     { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_09.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_09.jpg' },
     { src: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_10.jpg', thumb: '/images/santa_lucia_arrecifes/santa_lucia_arrecifes_10.jpg' }
   ];
+
+  const imagesCintra = [
+    { src: '/images/cintra/cintra_01.jpg', thumb: '/images/cintra/cintra_01.jpg' },
+    { src: '/images/cintra/cintra_02.jpg', thumb: '/images/cintra/cintra_02.jpg' },
+    { src: '/images/cintra/cintra_03.jpg', thumb: '/images/cintra/cintra_03.jpg' },
+    { src: '/images/cintra/cintra_04.jpg', thumb: '/images/cintra/cintra_04.jpg' },
+    { src: '/images/cintra/cintra_05.jpg', thumb: '/images/cintra/cintra_05.jpg' },
+    { src: '/images/cintra/cintra_06.jpg', thumb: '/images/cintra/cintra_06.jpg' },
+    { src: '/images/cintra/cintra_07.jpg', thumb: '/images/cintra/cintra_07.jpg' },
+    { src: '/images/cintra/cintra_08.jpg', thumb: '/images/cintra/cintra_08.jpg' },
+    { src: '/images/cintra/cintra_09.jpg', thumb: '/images/cintra/cintra_09.jpg' }
+  ];
+
+  const imagesCampoGahan = [
+    { src: '/images/campo_gahan/campo_gahan_01.jpg', thumb: '/images/campo_gahan/campo_gahan_01.jpg' },
+    { src: '/images/campo_gahan/campo_gahan_02.jpg', thumb: '/images/campo_gahan/campo_gahan_02.jpg' },
+    { src: '/images/campo_gahan/campo_gahan_03.jpg', thumb: '/images/campo_gahan/campo_gahan_03.jpg' },
+    { src: '/images/campo_gahan/campo_gahan_04.jpg', thumb: '/images/campo_gahan/campo_gahan_04.jpg' }
+  ];
+
+  const imagesGualeguay = [
+    { src: '/images/gualeguay/gualeguay_01.jpg', thumb: '/images/gualeguay/gualeguay_01.jpg' },
+    { src: '/images/gualeguay/gualeguay_02.jpg', thumb: '/images/gualeguay/gualeguay_02.jpg' },
+    { src: '/images/gualeguay/gualeguay_03.jpg', thumb: '/images/gualeguay/gualeguay_03.jpg' },
+    { src: '/images/gualeguay/gualeguay_04.jpg', thumb: '/images/gualeguay/gualeguay_04.jpg' },
+    { src: '/images/gualeguay/gualeguay_05.jpg', thumb: '/images/gualeguay/gualeguay_05.jpg' },
+    { src: '/images/gualeguay/gualeguay_06.jpg', thumb: '/images/gualeguay/gualeguay_06.jpg' },
+    { src: '/images/gualeguay/gualeguay_07.jpg', thumb: '/images/gualeguay/gualeguay_07.jpg' },
+    { src: '/images/gualeguay/gualeguay_08.jpg', thumb: '/images/gualeguay/gualeguay_08.jpg' },
+    { src: '/images/gualeguay/gualeguay_09.jpg', thumb: '/images/gualeguay/gualeguay_09.jpg' },
+    { src: '/images/gualeguay/gualeguay_10.jpg', thumb: '/images/gualeguay/gualeguay_10.jpg' }
+  ];
+
+  const imagesArrecifes = [
+    { src: '/images/arrecifes/arrecifes_01.jpg', thumb: '/images/arrecifes/arrecifes_01.jpg' },
+    { src: '/images/arrecifes/arrecifes_02.jpg', thumb: '/images/arrecifes/arrecifes_02.jpg' },
+    { src: '/images/arrecifes/arrecifes_03.jpg', thumb: '/images/arrecifes/arrecifes_03.jpg' },
+    { src: '/images/arrecifes/arrecifes_04.jpg', thumb: '/images/arrecifes/arrecifes_04.jpg' },
+    { src: '/images/arrecifes/arrecifes_05.jpg', thumb: '/images/arrecifes/arrecifes_05.jpg' },
+    { src: '/images/arrecifes/arrecifes_06.jpg', thumb: '/images/arrecifes/arrecifes_06.jpg' },
+    { src: '/images/arrecifes/arrecifes_07.jpg', thumb: '/images/arrecifes/arrecifes_07.jpg' },
+    { src: '/images/arrecifes/arrecifes_08.jpg', thumb: '/images/arrecifes/arrecifes_08.jpg' },
+    { src: '/images/arrecifes/arrecifes_09.jpg', thumb: '/images/arrecifes/arrecifes_09.jpg' },
+    { src: '/images/arrecifes/arrecifes_10.jpg', thumb: '/images/arrecifes/arrecifes_10.jpg' }
+  ];
+
+  const imagesCarlosKeen = [
+    { src: '/images/carlos_keen/carlos_keen_01.jpg', thumb: '/images/carlos_keen/carlos_keen_01.jpg' },
+    { src: '/images/carlos_keen/carlos_keen_02.jpg', thumb: '/images/carlos_keen/carlos_keen_02.jpg' },
+    { src: '/images/carlos_keen/carlos_keen_03.jpg', thumb: '/images/carlos_keen/carlos_keen_03.jpg' },
+    { src: '/images/carlos_keen/carlos_keen_04.jpg', thumb: '/images/carlos_keen/carlos_keen_04.jpg' },
+    { src: '/images/carlos_keen/carlos_keen_05.jpg', thumb: '/images/carlos_keen/carlos_keen_05.jpg' }
+  ];
   
   return (
     <main id='main' className='fields'>
@@ -518,7 +571,7 @@ const Campos = () => {
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
                 <p>Ofrecemos en oportunidad para la Venta un buen Campo agrícola ganadero a tan sólo 2.500 metros metros de la autopista nacional numero 9, que conecta la Ciudad de Rosario con Capital Federal. Campo regular de 80 ha, con unos 900 metros de frente por 900 metros de fondo.</p>
                 <p>Cuenta con una sola parcela de 799.960 metros cuadrados, buen campo con aptitud agrícola ganadera, unas 50 hectáreas de ganadería y unas 30 hectáreas de agricultura. Cuenta con dos taperas desperdiciando como máximo unas 2 hectáreas del campo. Campo regular, cuadrado, de unos 900 metros lineales de frente por unos 900 metros lineales de fondo.</p>
-                <p>A tan sólo 2.500 metros lineales hacía el lado del Rio de la ruta nacional numero 9, ingresando por el camino que está entre medio del puente El Paraiso de Ramallo y puente Gobernador Castro de la Ciudad de San Pedro, Buenos Aires. Buenos accesos con lluvia. </p>
+                <p>A tan sólo 2.500 metros lineales hacía el lado del Rio de la ruta nacional numero 9, ingresando por el camino que está entre medio del puente El Paraiso de Ramallo y puente Gobernador Castro de la Ciudad de San Pedro, Buenos Aires. Buenos accesos con lluvia.</p>
                 <p>Importante: Las medidas, superficies y gastos expuestos en éste sitio son aproximados y están sujetas a cambios por parte de Fauro Propiedades, responsable de la sucursal zonal Emilio Fauro, Matricula expedida por C.M.C.P.S.N. Tomo 2, Folio 252, Colegiado 1047, la que declaro se encuentra plenamente vigente.</p>
                 <p>La venta de este inmueble está sujeta a la tramitación del Código de Transferencia de Inmuebles (COTI), por parte del propietario.</p>
               </div>
@@ -563,6 +616,184 @@ const Campos = () => {
           </div>
         </div>
         {/* Santa Lucia / Arrecifes: End */}
+
+        {/* Cintra: Begin */}
+        <div className='field' id='cintra'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Cintra</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Cintra | Union | Cordoba
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-32.2983093271,-62.6210245977"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 2.183.100</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 383 HAS</span>
+                  <span className='block'><strong>Agricultura:</strong> 363 HAS</span>
+                  <span className='block'><strong>Bajos:</strong> 20 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Buen acceso. Alambrado perimetral. Suelos 3, 4 y 6. Apto Agricultura.</p>
+              </div>
+              <div>
+                <Gallery images={imagesCintra} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Cintra: End */}
+
+        {/* Campo Gahan: Begin */}
+        <div className='field' id='campo-gahan'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Campo Gahan</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Gahan | Salto | Interior Buenos Aires
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.2952188,-60.2534301"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 7.500</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 140 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Se encuentra a 8 km de la ruta 31; Gahan, Partido de Salto (Bs As) es un campo mixto/ganadero en una zona 100% agrícolas completas; Instalaciones de trabajo; Dos molinos; Tanque australiano y molino; Bebederos automáticos en cada uno de los siete potreros; manga completa; Corrales; Galpón 12m x 20m cerrado; Luz; Terraplén para construcción de casa; Parte agrícola; Permite verdeos de invierno/verano o pastura firme para producción y suplementación en invierno, es un excelente campo de cría/recría e invernada, Alambres internos y linderos de 7 hilos con estacas; Tranqueras de maderas y tranquerones a criquet en cada uno de los potreros; se escuchan propuestas, financiacion, oferta de contado. 
+                <br />
+                s$s 7.500 la hectárea.</p>
+              </div>
+              <div>
+                <Gallery images={imagesCampoGahan} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Campo Gahan: End */}
+
+        {/* Gualeguay: Begin */}
+        <div className='field' id='gualeguay'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Gualeguay, Entre Ríos</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Septimo Distrito | Gualeguay | Entre Rios
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-32.8888523288,-59.8977220706"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 1.520.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 1900 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Campo bajo en 7 mo. distrito Gualeguay, Entre Ríos. 1900 hectáreas. Ganadero. <br />
+                Distancias: A 14 km. de ruta 11, Rincçon de Nogoya chico. A 64 km. de Gualeguay. A 120 km. Rosario. Manga y corrales. Sobre Río Victoria. Acceso por camino vecinal.</p>
+              </div>
+              <div>
+                <Gallery images={imagesGualeguay} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Gualeguay: End */}
+
+        {/* Arrecifes: Begin */}
+        <div className='field' id='arrecifes'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Arrecifes zona rural</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Arrecifes | Arrecifes | Interior Buenos Aires
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.0859591088,-60.0731857432"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 1.050.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 93 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Campo agrícola de 93ha con excelente ubicacion. Se encuentra ubicado a 4km de la Autovia RN8 y a 3,8km de la RP 51, lo que facilita el ingreso y egreso del campo. Dentro del campo cruza una parte del arroyo el contador.</p>
+              </div>
+              <div>
+                <Gallery images={imagesArrecifes} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Arrecifes: End */}
+
+        {/* Carlos Keen: Begin */}
+        <div className='field' id='carlos-keen'>
+          <div className='container'>
+            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
+              <div className='fieldInfo'>
+                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Carlos Keen Zona Rural</h2>
+                <p className='flex items-center mb-2'>
+                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+                  </svg>
+                  Carlos Keen | Lujan | G.B.A. Zona Oeste
+                </p>
+                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.4666506573,-59.2380896589"} target='_blank'>Ver en Google Maps</Link>
+                <div className='flex items-center mt-5'>
+                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
+                  <span className='text-2xl font-bold'>USD 1.150.000</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <div>
+                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
+                  <span className='block'><strong>Superficie:</strong> 83 HAS</span>
+                </div>
+                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
+                <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
+                <p>Ubicado a 10 km de la autovia R N°7, km 90 y a 5 km de Carlos Keen. Se accede al campo por un camino de tierra distante 2 km desde el pavimento.<br />
+                La casa principal muy luminosa tiene un living integrado con el comedor y la cocina, dos dormitorios, baño, galeria y piscina. Está rodeada de un monte añoso. <br />
+                Cuenta con molino, tanque, manga, balanza y casa de encargado.<br />
+                El 50% del campo es agrícola.</p>
+              </div>
+              <div>
+                <Gallery images={imagesCarlosKeen} />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Carlos Keen: End */}
 
       </section>
 
