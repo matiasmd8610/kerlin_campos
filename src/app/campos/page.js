@@ -131,14 +131,6 @@ const Campos = () => {
     { src: '/images/wheelwright/wheelwright_10.jpg', thumb: '/images/wheelwright/wheelwright_10.jpg' }
   ];
 
-  const imagesRojas = [
-    { src: '/images/rojas/rojas_01.jpg', thumb: '/images/rojas/rojas_01.jpg' },
-    { src: '/images/rojas/rojas_02.jpg', thumb: '/images/rojas/rojas_02.jpg' },
-    { src: '/images/rojas/rojas_03.jpg', thumb: '/images/rojas/rojas_03.jpg' },
-    { src: '/images/rojas/rojas_04.jpg', thumb: '/images/rojas/rojas_04.jpg' },
-    { src: '/images/rojas/rojas_05.jpg', thumb: '/images/rojas/rojas_05.jpg' }
-  ];
-
   const imagesAccesoElPuente = [
     { src: '/images/acceso_el_puente/acceso_el_puente_01.jpg', thumb: '/images/acceso_el_puente/acceso_el_puente_01.jpg' },
     { src: '/images/acceso_el_puente/acceso_el_puente_02.jpg', thumb: '/images/acceso_el_puente/acceso_el_puente_02.jpg' },
@@ -292,11 +284,10 @@ const Campos = () => {
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
                   <span className='block'><strong>Superficie:</strong> 1000 HAS</span>
                   <span className='block'><strong>Incultas:</strong> 1500 HAS</span>
-                  <span className='block'><strong>Pasto Natural:</strong> 8500 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Este excepcional campo de 2.500 ha, con mejoras de primer nivel, cuenta con 24 km de terraplenes, 25 km de caminos internos y 45 km de canales de drenaje. Dispone de 2 estaciones de bombeo, corrales equipados con balanza electrónica, casa para puestero y galpón en construcción de 50x25 m. La planta de silo tiene capacidad de 480 tn y sistema de descarga al barco. Un alteo de 2 ha garantiza refugio seguro ante crecidas. Además, incluye una pista de aterrizaje, cobertura celular en todo el predio, y habilitación SENASA para exportación de carne. Ideal para engorde, cría y recría, con acceso por río incluso en épocas de sequía.</p>
+                <p>Campo Ganadero de 2.500 HA</p>
               </div>
               <div>
                 <Gallery images={imagesVictoria} />
@@ -321,47 +312,16 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-26.1993333,-64.239096"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 15.318.600</span>
+                  <span className='text-2xl font-bold'>USD 14.500.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                {/* <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Precio HA u$s:</strong> 2200</span>
-                  <span className='block'><strong>Ruta provincial:</strong> 4:4 Km</span>
-                  <span className='block'><strong>Nueva Esperanza:</strong> 30 Km</span>
-                  <span className='block'><strong>7 de abril (RN 34):</strong> 60 Km</span>
-                  <span className='block'><strong>San Miguel de Tucumán:</strong> 150 Km</span>
-                  <span className='block'><strong>Ciudad de Santiago del Estero:</strong> 240 Km</span>
-                  <span className='block'><strong>Ciudad de Salta:</strong> 300 Km</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 6963 HAS</span>
+                  <span className='block'><strong>Superficie:</strong> 6900 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Este campo de 3.606 ha, ideal para agricultura y ganadería, está completamente alambrado con 7 hilos y cuenta con picadas perimetrales e internas. Incluye una casa en excelente estado con 3 habitaciones, cocina, comedor y baño. La propiedad se abastece de luz solar y dispone de un aljibe de 30.000 litros para consumo humano y un tanque de 25.000 litros apto para uso animal y fumigación. Con cultivos de soja, maíz, poroto negro y poroto mung en la campaña 2018/2019, su promedio anual de precipitaciones es de 700-800 mm, lo que lo convierte en una excelente opción para producción agrícola.</p>
-                {/* <span className='block'>MEJORAS</span>
-                <ul className='services mb-5'>
-                  <li>El campo está totalmente alambrado con 7 hilos (nuevo).</li>
-                  <li>Cortinas de monte natural.</li>
-                  <li>Picadas perimetrales e internas.</li>
-                  <li>Casa con 3 Habitaciones, 1 baño, cocina y comedor (muy buen estado)</li>
-                  <li>Luz por energía solar (tendido eléctrico a 2 Kms)</li>
-                  <li>Aljibe para consumo Humano (30.000 litros)</li>
-                  <li>Tanque de agua apta para consumo animal y fumigar (25.000 litros)</li>
-                </ul>
-                <span className='block'>APTITUD</span>
-                <p>El campo tiene 3.606 ha desmontadas y en agricultura. El resto es monte abierto.</p>
-                <span>Campaña 2018/2019:</span>
-                <ul className='services mb-5'>
-                  <li>Soja: 1391 ha.</li>
-                  <li>Maíz: 1.683 ha.</li>
-                  <li>Poroto negro: 431 ha.</li>
-                  <li>Poroto mung: 100 ha.</li>
-                </ul>
-                <span className='block'>PRECIPITACIÓN ANUAL PROMEDIO: 700-800 mm</span> */}
+                <p>Este campo de 3.600 HA, ideal para agricultura y ganadería.</p>
               </div>
               <div>
                 <Gallery images={imagesNuevaEsperanza} />
@@ -389,22 +349,13 @@ const Campos = () => {
                   <span className='text-2xl font-bold'>USD 18.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                {/* <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Precio HA u$s:</strong> 600</span>
-                  <span className='block'><strong>Asfalto:</strong> 16 Km</span>
-                  <span className='block'><strong>Tostado:</strong> 140 Km</span>
-                  <span className='block'><strong>Ciudad de Santa Fé:</strong> 470 Km</span>
-                  <span className='block'><strong>Ciudad Autónoma de Buenos Aires:</strong> 920 Km</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
                   <span className='block'><strong>Superficie:</strong> 3000 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Esta estancia de gran extensión cuenta con alambrados perimetrales en su mayoría en estado aceptable, complementados por tramos de alambrado eléctrico y postes listos para finalizar el cerco. Dispone de una casa principal en buenas condiciones, un pequeño puesto, galpón de herramientas y maquinarias, además de una casa para puestero en el suroeste. Incluye corrales, manga, balanza, bañadero, bebederos y molinos, con un eficiente sistema de represas para acumular agua en épocas de lluvias importantes. Con aptitud ganadera y agrícola, la estancia cuenta con 8.000 ha de monte, ideal para silvicultura, y áreas para cultivo de algodón, maíz, sorgo y girasol. Su capacidad ganadera actual es de 1 animal cada 3 ha, con potencial de mejora. La precipitación anual es de 700-1000 mm, ideal para la cría de vacunos y cultivos en menor escala.</p>
+                <p>Campo con aptitud ganadera y agrícola.</p>
               </div>
               <div>
                 <Gallery images={imagesElNochero} />
@@ -429,42 +380,16 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.7710294,-65.522684"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 14.841.450</span>
+                  <span className='text-2xl font-bold'>USD 14.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                {/* <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Información general</h4>
-                  <span className='block'><strong>Precio HA u$s:</strong> 1950</span>
-                  <span className='block'><strong>Sobre ruta:</strong> 12 y 27</span>
-                  <span className='block'><strong>Fotin El Patria:</strong> 5 km</span>
-                  <span className='block'><strong>Buena Esperanza:</strong> 28 km</span>
-                  <span className='block'><strong>Rio Cuarto:</strong> 270 km</span>
-                  <span className='block'><strong>Rosario:</strong> 600 km</span>
-                  <span className='block'><strong>Buenos Aires:</strong> 720 km</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' /> */}
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 7611 HAS</span>
-                  <span className='block'><strong>Agrícolas:</strong> 3500 HAS</span>
-                  <span className='block'><strong>Ganaderas:</strong> 3300 HAS</span>
-                  <span className='block'><strong>Monte Alto:</strong> 800 HAS</span>
+                  <span className='block'><strong>Superficie:</strong> 7600 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                {/* <span className='block'>MEJORAS</span>
-                <ul className='services mb-5'>
-                  <li>Casco con casa principal de 450 m2</li>
-                  <li>Casa de encargado, casa de peones y galpones</li>
-                  <li>Servicios: teléfono de línea, Internet, luz eléctrica de alta tensión con transformador de 24 Kwa</li>
-                  <li>El campo se encuentra dividido en 27 potreros y posee 15 molinos con sus correspondientes tanques y bebederos.</li>
-                  <li>Distancia al agua de 1 a 4 m en la superficie agrícola</li>
-                  <li>Agua dulce apta también para el consumo humano. Posibilidad de riego</li>
-                  <li>Instalaciones para feedlot</li>
-                  <li>2 mangas (con balanza para 3000 kg)</li>
-                </ul>
-                <span className='block uppercase'>Aptitud:</span> */}
-                <p>Este campo agrícola-ganadero, con una extensión dividida en 27 potreros, cuenta con una casa principal de 450 m², casa para encargado, vivienda para peones y amplios galpones. Equipado con servicios como teléfono, Internet y electricidad de alta tensión con transformador de 24 Kwa, ofrece excelentes condiciones para la producción. Posee 15 molinos con tanques y bebederos, agua dulce apta para consumo humano y la posibilidad de riego. El campo alberga instalaciones para feedlot y 2 mangas con balanza para 3000 kg. Con capacidad para 6.000 cabezas de ganado y 1.500 vientres, es ideal para cultivos de girasol, maíz, sorgo, centeno, y pasturas para ganadería como llorón y digitaria.</p>
+                <p>Campo agrícola-ganadero,  El campo alberga instalaciones para feedlot.</p>
               </div>
               <div>
                 <Gallery images={imagesFortinElPatria} />
@@ -474,38 +399,6 @@ const Campos = () => {
           </div>
         </div>
         {/* Fortin El Patria: End */}
-
-        {/* Rojas: Begin */}
-        <div className='field' id='rojas'>
-          <div className='container'>
-            <div className='grid lg:grid-cols-2 gap-10 lg:gap-[4rem]'>
-              <div className='fieldInfo'>
-                <h2 className='leftBorder text-[24px] lg:text-[28px] mb-10 uppercase'>Rojas</h2>
-                <p className='flex items-center mb-2'>
-                  <svg className='icon mr-2 w-5 h-5' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
-                  </svg>
-                  Rojas | Interior Buenos Aires | Argentina
-                </p>
-                <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.197698,-60.7338035"} target='_blank'>Ver en Google Maps</Link>
-                <div className='flex items-center mt-5'>
-                  <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 14.900.000</span>
-                </div>
-                <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
-                <div>
-                  <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 1600 HAS</span>
-                </div>
-              </div>
-              <div>
-                <Gallery images={imagesRojas} />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Rojas: End */}
-
 
         {/* Wheelwright: Begin */}
         <div className='field' id='wheelwright'>
@@ -527,11 +420,11 @@ const Campos = () => {
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 511 HAS</span>
+                  <span className='block'><strong>Superficie:</strong> 425 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Casa de encargado de 2 habitaciones, baño y cocina. 1 galpón. Luz eléctrica. Alambrados perimetrales e internos en buen estado. 2 molinos con aguadas. Buena calidad de agua. APTITUD: El campo posee 150 hectáreas agrícolas, 275 ganaderas y 77 de lagunas.</p>
+                <p>El campo posee 150 hectáreas agrícolas, 275 ganaderas.</p>
               </div>
               <div>
                 <Gallery images={imagesWheelwright} />
@@ -562,18 +455,10 @@ const Campos = () => {
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
                   <span className='block'><strong>Superficie:</strong> 80 HAS</span>
-                  <span className='block'><strong>Superficie cubierta:</strong> 56.0 m2</span>
-                  <span className='block'><strong>Total construido:</strong> 56.0 m2</span>
-                  <span className='block'><strong>Fondo:</strong> 895.1 m</span>
-                  <span className='block'><strong>Frente:</strong> 893.71 m</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Ofrecemos en oportunidad para la Venta un buen Campo agrícola ganadero a tan sólo 2.500 metros metros de la autopista nacional numero 9, que conecta la Ciudad de Rosario con Capital Federal. Campo regular de 80 ha, con unos 900 metros de frente por 900 metros de fondo.</p>
-                <p>Cuenta con una sola parcela de 799.960 metros cuadrados, buen campo con aptitud agrícola ganadera, unas 50 hectáreas de ganadería y unas 30 hectáreas de agricultura. Cuenta con dos taperas desperdiciando como máximo unas 2 hectáreas del campo. Campo regular, cuadrado, de unos 900 metros lineales de frente por unos 900 metros lineales de fondo.</p>
-                <p>A tan sólo 2.500 metros lineales hacía el lado del Rio de la ruta nacional numero 9, ingresando por el camino que está entre medio del puente El Paraiso de Ramallo y puente Gobernador Castro de la Ciudad de San Pedro, Buenos Aires. Buenos accesos con lluvia.</p>
-                <p>Importante: Las medidas, superficies y gastos expuestos en éste sitio son aproximados y están sujetas a cambios por parte de Fauro Propiedades, responsable de la sucursal zonal Emilio Fauro, Matricula expedida por C.M.C.P.S.N. Tomo 2, Folio 252, Colegiado 1047, la que declaro se encuentra plenamente vigente.</p>
-                <p>La venta de este inmueble está sujeta a la tramitación del Código de Transferencia de Inmuebles (COTI), por parte del propietario.</p>
+                <p>Campo agrícola ganadero.</p>
               </div>
               <div>
                 <Gallery images={imagesAccesoElPuente} />
@@ -603,11 +488,11 @@ const Campos = () => {
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
-                  <span className='block'><strong>Superficie:</strong> 17.70 HAS</span>
+                  <span className='block'><strong>Superficie:</strong> 17 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Campo agrícola ubicado a 4.000 metros de la ruta 191, entre partido de Arrecifes y Santa Lucia. Cuenta con 17,7 Hectáreas.</p>
+                <p>Campo agrícola.</p>
               </div>
               <div>
                 <Gallery images={imagesSantaLuciaArrecifes} />
@@ -632,18 +517,16 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-32.2983093271,-62.6210245977"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 2.183.100</span>
+                  <span className='text-2xl font-bold'>USD 2.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
                   <h4 className='text-base font-bold mb-2 uppercase underline'>Superficies y medidas</h4>
                   <span className='block'><strong>Superficie:</strong> 383 HAS</span>
-                  <span className='block'><strong>Agricultura:</strong> 363 HAS</span>
-                  <span className='block'><strong>Bajos:</strong> 20 HAS</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Buen acceso. Alambrado perimetral. Suelos 3, 4 y 6. Apto Agricultura.</p>
+                <p>Apto Agricultura.</p>
               </div>
               <div>
                 <Gallery images={imagesCintra} />
@@ -677,9 +560,7 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Se encuentra a 8 km de la ruta 31; Gahan, Partido de Salto (Bs As) es un campo mixto/ganadero en una zona 100% agrícolas completas; Instalaciones de trabajo; Dos molinos; Tanque australiano y molino; Bebederos automáticos en cada uno de los siete potreros; manga completa; Corrales; Galpón 12m x 20m cerrado; Luz; Terraplén para construcción de casa; Parte agrícola; Permite verdeos de invierno/verano o pastura firme para producción y suplementación en invierno, es un excelente campo de cría/recría e invernada, Alambres internos y linderos de 7 hilos con estacas; Tranqueras de maderas y tranquerones a criquet en cada uno de los potreros; se escuchan propuestas, financiacion, oferta de contado. 
-                <br />
-                s$s 7.500 la hectárea.</p>
+                <p>Campo mixto/ganadero.</p>
               </div>
               <div>
                 <Gallery images={imagesCampoGahan} />
@@ -704,7 +585,7 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-32.8888523288,-59.8977220706"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 1.520.000</span>
+                  <span className='text-2xl font-bold'>USD 1.500.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
@@ -713,8 +594,7 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Campo bajo en 7 mo. distrito Gualeguay, Entre Ríos. 1900 hectáreas. Ganadero. <br />
-                Distancias: A 14 km. de ruta 11, Rincçon de Nogoya chico. A 64 km. de Gualeguay. A 120 km. Rosario. Manga y corrales. Sobre Río Victoria. Acceso por camino vecinal.</p>
+                <p>Campo Ganadero.</p>
               </div>
               <div>
                 <Gallery images={imagesGualeguay} />
@@ -739,7 +619,7 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.0859591088,-60.0731857432"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 1.050.000</span>
+                  <span className='text-2xl font-bold'>USD 1.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
@@ -748,7 +628,7 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Campo agrícola de 93ha con excelente ubicacion. Se encuentra ubicado a 4km de la Autovia RN8 y a 3,8km de la RP 51, lo que facilita el ingreso y egreso del campo. Dentro del campo cruza una parte del arroyo el contador.</p>
+                <p>Campo agrícola.</p>
               </div>
               <div>
                 <Gallery images={imagesArrecifes} />
@@ -773,7 +653,7 @@ const Campos = () => {
                 <Link className="font-semibold underline ml-6 text-base text-blueMain" href={"https://www.google.com/maps/search/?api=1&query=-34.4666506573,-59.2380896589"} target='_blank'>Ver en Google Maps</Link>
                 <div className='flex items-center mt-5'>
                   <span className='bg-green-300 rounded-md px-3 py-1 grid place-items-center text-[11px] uppercase mr-3 font-bold'>Venta</span>
-                  <span className='text-2xl font-bold'>USD 1.150.000</span>
+                  <span className='text-2xl font-bold'>USD 1.000.000</span>
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <div>
@@ -782,10 +662,7 @@ const Campos = () => {
                 </div>
                 <hr className='border-0 h-[1px] bg-slate-300 w-full my-6' />
                 <h4 className='text-base font-bold mb-2 uppercase underline'>Descripción</h4>
-                <p>Ubicado a 10 km de la autovia R N°7, km 90 y a 5 km de Carlos Keen. Se accede al campo por un camino de tierra distante 2 km desde el pavimento.<br />
-                La casa principal muy luminosa tiene un living integrado con el comedor y la cocina, dos dormitorios, baño, galeria y piscina. Está rodeada de un monte añoso. <br />
-                Cuenta con molino, tanque, manga, balanza y casa de encargado.<br />
-                El 50% del campo es agrícola.</p>
+                <p>El 50% del campo es agrícola.</p>
               </div>
               <div>
                 <Gallery images={imagesCarlosKeen} />
